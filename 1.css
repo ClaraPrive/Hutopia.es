@@ -3247,8 +3247,8 @@ table {
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+    margin-right: 0px;
+    margin-left: 0px;
     margin-top: 0px;
         
 }
@@ -14500,5 +14500,13 @@ table {
     .contenidoprincipal {
         margin-left: 10px;
         margin-right: 10px;
+    }
+}
+/* Media queries para ajustar el tamaño de las imágenes en dispositivos móviles */
+@media (max-width: 576px) {
+    .same-size {
+        height: 200px; /* Cambiar el tamaño de la imagen para dispositivos móviles */
+        width: auto; /* Ajustar automáticamente el ancho de la imagen */
+        max-width: 100%; /* Asegurar que la imagen no se desborde del contenedor */
     }
 }
