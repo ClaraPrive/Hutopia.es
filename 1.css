@@ -2796,12 +2796,13 @@ div {
   align-items: center;
   background-color: #eee;
   display: flex;
-  height: 20rem;
   justify-content: center;
   overflow: hidden;
   position: absolute;
   width: 20rem;
-  object-fit: contain;
+  height: 20rem;
+  background-size: cover; /* Ajustar el tamaño del fondo para que cubra todo el contenedor */
+  background-position: center; /* Centrar el fondo */
 }
 
 /* This will target an individual side of the cube */
