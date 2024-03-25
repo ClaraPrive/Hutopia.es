@@ -271,7 +271,8 @@
     overflow: hidden;
     z-index: 0;
     text-align: center;
-    margin-bottom: 15px
+    margin-bottom: 15px;
+    
 }
 
 .cover .coverBackground {
@@ -14245,11 +14246,12 @@ table {
     }
 
     /* Intro a la página */
-    .cover .coverContent {
-        /* Ajustes para contenido de portada en pantallas pequeñas */
-        margin-top: 100px;
-        height: 50px;
+    @media (max-width: 768px) {
+    .cover {
+        height: 50%; /* Ancho relativo */
+        max-height: 50%; /* Establecemos un ancho máximo relativo */
     }
+}
 
     .cover .carousel {
         margin-top: 100px; /* Ajuste del margen superior para pantallas más pequeñas */
