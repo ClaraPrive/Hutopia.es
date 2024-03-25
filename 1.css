@@ -14546,13 +14546,7 @@ table {
     max-width: 1140px;
   }
 }
-/* CSS para dispositivos móviles */
-@media only screen and (max-width: 600px) {
-    .contenidoprincipal {
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-}
+
 /* Media queries para ajustar el tamaño de las imágenes en dispositivos móviles */
 @media (max-width: 576px) {
     .same-size {
