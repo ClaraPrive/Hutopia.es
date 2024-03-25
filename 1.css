@@ -2801,7 +2801,7 @@ div {
   overflow: hidden;
   position: absolute;
   width: 20rem;
-  object-fit: contain;
+  object-fit: scale-down;
 }
 
 /* This will target an individual side of the cube */
@@ -2833,7 +2833,11 @@ div {
   height: 100%;
   width: auto;
   overflow: hidden;
+    object-fit: contain;
+  width: 100%;
+  height: 100%;
 }
+
 
 /* Responsive ============================================================*/
 
