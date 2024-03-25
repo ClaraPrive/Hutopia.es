@@ -131,8 +131,8 @@
 .menu-button {
     background: #FFF;
     /*border-radius: 25%;*/
-    width: 55px;
-    height: 35px;
+    width: 30px;
+    height: 40px;
     cursor: pointer;
     position: fixed;
     top: 75px;
