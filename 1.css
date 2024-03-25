@@ -10032,8 +10032,11 @@ div {
   overflow: hidden;
   position: absolute;
   width: 20rem;
-  object-fit: cover;
+  background-size: contain; /* Ajustar el tamaño del fondo para que quepa dentro del contenedor */
+  background-repeat: no-repeat; /* Evitar la repetición del fondo */
+  background-position: center; /* Centrar el fondo */
 }
+
 
 /* This will target an individual side of the cube */
 .cube__face--front {
