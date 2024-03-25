@@ -1,0 +1,1518 @@
+/* Animación de fondo con gradientes */
+@keyframes waveAnimationbackground {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+ /* Estilos para la sección de las olas */
+
+  /*ESTILO DE LAS OLAS*/  
+   .waves {
+      position: absolute;
+      bottom: -3px;
+      height: 2900px;
+      width: 100%;
+      overflow: hidden;
+    }
+    .wave {
+      position: absolute;
+      left: -180px;
+      bottom: 1120px;
+      /*width: 200px;*/
+      /*height: 200px;*/
+      /*width: 100%;*/
+      border-radius: 25%;
+      /*background:rgba(0,0,0, .3);*/
+      width: 2402px;
+      height: 290px;
+      background: url(https://static.platzi.com/media/files/waves_c8551f5d-ecf6-4a81-ae1d-f3a0ad55ba10.png) center bottom no-repeat;
+      background-color: aliceblue; 
+      animation: 5s wave ease-in-out infinite alternate;
+    }
+.wave.a {
+      background-position: 0 30px;
+     z-index: 0; /* Cambiado para que esté por encima de la ola D */
+    height: 200px;
+    }
+.wave.b {
+     height: 250px;
+      animation-delay: .6s;
+     z-index: 0; /* Cambiado para que esté por encima de la ola D */
+    }
+.wave.c {
+    height: 400px;
+    animation: waveAnimation 4s ease-in-out infinite alternate;
+     z-index: -2; /* Cambiado para que esté detrás de la ola D */
+    }
+.wave.d {
+      background-position: 0 0px;
+      animation-delay: 1.7s;
+      height: 520px;
+    background-color: rgba(240, 255, 255, 0.15); /* azure con 10% de opacidad */
+    z-index: -3; /* Asegura que esté detrás de todas las otras olas */
+    animation: waveAnimation 4s ease-in-out infinite alternate;
+    }
+
+    
+   @keyframes wave {
+      0% {
+        transform: translate(0 , 0);
+      }
+      50% {
+        transform: translate(-80px, 60px);
+      }
+      100% {
+        transform: translate(160px, -20px);
+      }
+    }
+ @keyframes waveAnimation {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  50% {
+    transform: translate(-80px, -200px); /* Desplaza la ola hacia abajo */
+    
+  } 
+  100% {
+    transform: translate(160px, 0px);
+    
+  }
+} 
+ <div class="waves">
+            <div class="wave circulo a"></div>
+            <div class="wave circulo b"></div>
+            <div class="wave circulo c"></div>
+            <div class="wave circulo d"></div>
+        </div> 
+        justify-content: space-between; /* Cambiado a space-between para distribuir uniformemente */
+-----
+     <div class="container">
+        <div class="col-3">
+                <div class="black-hole">
+                    <ul class="gooey-container">
+                        <li class="bubble"><span>El país que existió entre España y Portugal hace tres siglos</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="black-hole">
+                    <ul class="gooey-container">
+                        <li class="bubble" ><span>El recorrido judicial del 11-M, 20 años después</span></li>
+                    </ul>
+                </div>
+            </div>
+           <div class="col-3">
+                <div class="black-hole">
+                    <ul class="gooey-container">
+                        <li class="bubble" ><span>Qué pasa con las personas desaparecidas después de años?</span></li>
+                    </ul>
+                </div>
+            </div>
+           <div class="col-3">
+                <div class="black-hole">
+                    <ul class="gooey-container">
+                        <li class="bubble"><span>El Papa Francisco se suma a CADENA 100 POR LA PAZ</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="black-hole">
+                    <ul class="gooey-container">
+                        <li class="bubble"><span>Open Arms retrasa al menos hasta este lunes la salida del barco con ayuda humanitaria</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="black-hole">
+                    <ul class="gooey-container">
+                        <li class="bubble"><span>Catalunya registra el fin de semana más lluvioso del último año</span></li>
+                    </ul>
+                </div>
+            </div>
+          <div class="col-3">
+                <div class="black-hole">
+                    <ul class="gooey-container">
+                        <li class="bubble"><span>La historia bélica americana a través de Larry Bird</span></li>
+                    </ul>
+                </div>
+            </div>
+         <div class="col-3">
+                <div class="black-hole">
+                    <ul class="gooey-container">
+                        <li class="bubble"><span>Israel detiene a 20 residentes palestinos de Jerusalén</span></li>
+                    </ul>
+                </div>
+            </div>
+         <div class="col-3">
+                <div class="black-hole">
+                    <ul class="gooey-container">
+                        <li class="bubble"><span>Attila Dogudan: El emperador del catering</span></li>
+                    </ul>
+                </div>
+            </div>
+         <div class="col-3">
+                <div class="black-hole">
+                    <ul class="gooey-container">
+                        <li class="bubble"><span>Esta app gratuita te permite leer un resumen generado por IA de cualquier vídeo de YouTube </span></li>
+                    </ul>
+                </div>
+            </div>
+         <div class="col-3">
+                <div class="black-hole">
+                    <ul class="gooey-container">
+                        <li class="bubble"><span>Título 11</span></li>
+                    </ul>
+                </div>
+            </div>
+         <div class="col-3">
+                <div class="black-hole">
+                    <ul class="gooey-container">
+                        <li class="bubble"><span>Título 12</span></li>
+                    </ul>
+                </div>
+            </div>
+         <div class="col-3">
+                <div class="black-hole">
+                    <ul class="gooey-container">
+                        <li class="bubble"><span>Título 13</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+  ---
+  <div class="community_component">
+  <div class="community_column-wrapper">
+    <img src="bubblesop1/1.png" alt="Imagen 1">
+    <img src="bubblesop1/13.png" alt="Imagen 2">
+  </div>
+  <div class="community_column-wrapper">
+    <img src="stories/1.png">
+    <img src="bubblesop1/3.png" alt="Imagen 4">
+      
+  </div>
+  <div class="community_column-wrapper">
+    <img src="stories/6.png">
+    <img src="bubblesop1/bubo2.1.png" alt="Imagen 5">
+    <img src="imgcover/5-m.jpg" alt="Imagen 6">
+   
+  </div>
+  <div class="community_column-wrapper">
+    <img src="imgcover/9.jpg" alt="Imagen 7">
+    <img src="rostros/r10.jpeg">
+    <img src="rostros/r7.jpeg">
+  </div>
+     <div class="community_column-wrapper">
+           <img src="imgcover/4-m.jpg" alt="Imagen 3">
+    <img src="imgcover/8.jpg" alt="Imagen 4">
+      <img src="stories/4.png">
+   </div>    
+     <div class="community_column-wrapper">
+         <img src="stories/10.png">
+           <img src="imgcover/6-m.jpg" alt="Imagen 3">
+    <img src="imgcover/1.jpg" alt="Imagen 4">
+      
+   </div>    
+     <div class="community_column-wrapper">
+           <img src="imgcover/5-m.jpg" alt="Imagen 3">
+    <img src="imgcover/7.jpg" alt="Imagen 4">
+      <img src="stories/2.png">
+   </div>    
+</div>  
+   ---
+   
+   <div class="parallax-img_wrapper _1" style="will-change: transform; transform: translate3d(0px, -17.3607rem, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"><img src="./Earthrise Studio_files/65a7c202dc3d1e900030f602_Post - Amazon Economy.png" loading="lazy" sizes="(max-width: 479px) 44vw, (max-width: 767px) 30vw, (max-width: 991px) 21vw, (max-width: 1919px) 17vw, 16vw" srcset="https://assets-global.website-files.com/646388713b8b697776dae447/65a7c202dc3d1e900030f602_Post%20-%20Amazon%20Economy-p-500.png 500w, https://assets-global.website-files.com/646388713b8b697776dae447/65a7c202dc3d1e900030f602_Post%20-%20Amazon%20Economy-p-800.png 800w, https://assets-global.website-files.com/646388713b8b697776dae447/65a7c202dc3d1e900030f602_Post%20-%20Amazon%20Economy.png 1080w" alt="" class="parallax-img"></div>
+---
+ <script>
+            jQuery('.epu-close, .epu-mask, .epu-rejection, .epu-question').click(function() {
+                jQuery('.epu, .epu-mask').remove();
+                Cookies.set('epu-abandono-pagina', 'dismissed', {
+                    expires: 1
+                });
+            });
+
+            jQuery(document).mouseleave(function() {
+                jQuery('.epu, .epu-mask').css('display', 'block');
+            });
+        </script>
+
+<script type="application/ld+json" class="yoast-schema-graph">
+            {
+                "@context": "https://schema.org",
+                "@graph": [
+                    {
+                        "@type": "WebPage",
+                        "@id": "https://thesummerhunter.com/",
+                        "url": "https://thesummerhunter.com/",
+                        "name": "The Summer Hunter",
+                        "isPartOf": {
+                            "@id": "https://thesummerhunter.com/#website"
+                        },
+                        "about": {
+                            "@id": "https://thesummerhunter.com/#organization"
+                        },
+                        "datePublished": "2019-08-23T21:08:54+00:00",
+                        "dateModified": "2024-02-09T12:51:15+00:00",
+                        "description": "Ver&atilde;o &eacute; mais do que uma esta&ccedil;&atilde;o do ano, &eacute; um estado de esp&iacute;rito! No The Summer Hunter buscamos o lado solar e equilibrado da vida.",
+                        "breadcrumb": {
+                            "@id": "https://thesummerhunter.com/#breadcrumb"
+                        },
+                        "inLanguage": "pt-BR",
+                        "potentialAction": [
+                            {
+                                "@type": "ReadAction",
+                                "target": [
+                                    "https://thesummerhunter.com/"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "BreadcrumbList",
+                        "@id": "https://thesummerhunter.com/#breadcrumb",
+                        "itemListElement": [
+                            {
+                                "@type": "ListItem",
+                                "position": 1,
+                                "name": "Home"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "WebSite",
+                        "@id": "https://thesummerhunter.com/#website",
+                        "url": "https://thesummerhunter.com/",
+                        "name": "The Summer Hunter",
+                        "description": "O Lado Solar da Vida",
+                        "publisher": {
+                            "@id": "https://thesummerhunter.com/#organization"
+                        },
+                        "potentialAction": [
+                            {
+                                "@type": "SearchAction",
+                                "target": {
+                                    "@type": "EntryPoint",
+                                    "urlTemplate": "https://thesummerhunter.com/?s={search_term_string}"
+                                },
+                                "query-input": "required name=search_term_string"
+                            }
+                        ],
+                        "inLanguage": "pt-BR"
+                    },
+                    {
+                        "@type": "Organization",
+                        "@id": "https://thesummerhunter.com/#organization",
+                        "name": "The Summer Hunter",
+                        "url": "https://thesummerhunter.com/",
+                        "logo": {
+                            "@type": "ImageObject",
+                            "inLanguage": "pt-BR",
+                            "@id": "https://thesummerhunter.com/#/schema/logo/image/",
+                            "url": "https://thesummerhunter.com/wp-content/uploads/2022/01/cropped-1805-logo-reducao-tsh-ed-02-1.png",
+                            "contentUrl": "https://thesummerhunter.com/wp-content/uploads/2022/01/cropped-1805-logo-reducao-tsh-ed-02-1.png",
+                            "width": 96,
+                            "height": 96,
+                            "caption": "The Summer Hunter"
+                        },
+                        "image": {
+                            "@id": "https://thesummerhunter.com/#/schema/logo/image/"
+                        }
+                    }
+                ]
+            }</script>
+        ________________________________________________________________________________------------
+<style id="classic-theme-styles-inline-css" type="text/css">
+            /*! This file is auto-generated */
+            .wp-block-button__link {
+                color: #fff;
+                background-color: #32373c;
+                border-radius: 9999px;
+                box-shadow: none;
+                text-decoration: none;
+                padding: calc(.667em + 2px) calc(1.333em + 2px);
+                font-size: 1.125em
+            }
+
+            .wp-block-file__button {
+                background: #32373c;
+                color: #fff;
+                text-decoration: none
+            }
+        </style>
+        <style id="global-styles-inline-css" type="text/css">
+            body {
+                --wp--preset--color--black: #000000;
+                --wp--preset--color--cyan-bluish-gray: #abb8c3;
+                --wp--preset--color--white: #ffffff;
+                --wp--preset--color--pale-pink: #f78da7;
+                --wp--preset--color--vivid-red: #cf2e2e;
+                --wp--preset--color--luminous-vivid-orange: #ff6900;
+                --wp--preset--color--luminous-vivid-amber: #fcb900;
+                --wp--preset--color--light-green-cyan: #7bdcb5;
+                --wp--preset--color--vivid-green-cyan: #00d084;
+                --wp--preset--color--pale-cyan-blue: #8ed1fc;
+                --wp--preset--color--vivid-cyan-blue: #0693e3;
+                --wp--preset--color--vivid-purple: #9b51e0;
+                --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);
+                --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);
+                --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);
+                --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);
+                --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);
+                --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);
+                --wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);
+                --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);
+                --wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);
+                --wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);
+                --wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);
+                --wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);
+                --wp--preset--font-size--small: 13px;
+                --wp--preset--font-size--medium: 20px;
+                --wp--preset--font-size--large: 36px;
+                --wp--preset--font-size--x-large: 42px;
+                --wp--preset--spacing--20: 0.44rem;
+                --wp--preset--spacing--30: 0.67rem;
+                --wp--preset--spacing--40: 1rem;
+                --wp--preset--spacing--50: 1.5rem;
+                --wp--preset--spacing--60: 2.25rem;
+                --wp--preset--spacing--70: 3.38rem;
+                --wp--preset--spacing--80: 5.06rem;
+                --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+                --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+                --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+                --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);
+                --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
+            }
+
+            :where(.is-layout-flex) {
+                gap: 0.5em;
+            }
+
+            :where(.is-layout-grid) {
+                gap: 0.5em;
+            }
+
+            body .is-layout-flow > .alignleft {
+                float: left;
+                margin-inline-start: 0;margin-inline-end: 2em;}
+
+            body .is-layout-flow > .alignright {
+                float: right;
+                margin-inline-start: 2em;margin-inline-end: 0;}
+
+            body .is-layout-flow > .aligncenter {
+                margin-left: auto !important;
+                margin-right: auto !important;
+            }
+
+            body .is-layout-constrained > .alignleft {
+                float: left;
+                margin-inline-start: 0;margin-inline-end: 2em;}
+
+            body .is-layout-constrained > .alignright {
+                float: right;
+                margin-inline-start: 2em;margin-inline-end: 0;}
+
+            body .is-layout-constrained > .aligncenter {
+                margin-left: auto !important;
+                margin-right: auto !important;
+            }
+
+            body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+                max-width: var(--wp--style--global--content-size);
+                margin-left: auto !important;
+                margin-right: auto !important;
+            }
+
+            body .is-layout-constrained > .alignwide {
+                max-width: var(--wp--style--global--wide-size);
+            }
+
+            body .is-layout-flex {
+                display: flex;
+            }
+
+            body .is-layout-flex {
+                flex-wrap: wrap;
+                align-items: center;
+            }
+
+            body .is-layout-flex > * {
+                margin: 0;
+            }
+
+            body .is-layout-grid {
+                display: grid;
+            }
+
+            body .is-layout-grid > * {
+                margin: 0;
+            }
+
+            :where(.wp-block-columns.is-layout-flex) {
+                gap: 2em;
+            }
+
+            :where(.wp-block-columns.is-layout-grid) {
+                gap: 2em;
+            }
+
+            :where(.wp-block-post-template.is-layout-flex) {
+                gap: 1.25em;
+            }
+
+            :where(.wp-block-post-template.is-layout-grid) {
+                gap: 1.25em;
+            }
+
+            .has-black-color {
+                color: var(--wp--preset--color--black) !important;
+            }
+
+            .has-cyan-bluish-gray-color {
+                color: var(--wp--preset--color--cyan-bluish-gray) !important;
+            }
+
+            .has-white-color {
+                color: var(--wp--preset--color--white) !important;
+            }
+
+            .has-pale-pink-color {
+                color: var(--wp--preset--color--pale-pink) !important;
+            }
+
+            .has-vivid-red-color {
+                color: var(--wp--preset--color--vivid-red) !important;
+            }
+
+            .has-luminous-vivid-orange-color {
+                color: var(--wp--preset--color--luminous-vivid-orange) !important;
+            }
+
+            .has-luminous-vivid-amber-color {
+                color: var(--wp--preset--color--luminous-vivid-amber) !important;
+            }
+
+            .has-light-green-cyan-color {
+                color: var(--wp--preset--color--light-green-cyan) !important;
+            }
+
+            .has-vivid-green-cyan-color {
+                color: var(--wp--preset--color--vivid-green-cyan) !important;
+            }
+
+            .has-pale-cyan-blue-color {
+                color: var(--wp--preset--color--pale-cyan-blue) !important;
+            }
+
+            .has-vivid-cyan-blue-color {
+                color: var(--wp--preset--color--vivid-cyan-blue) !important;
+            }
+
+            .has-vivid-purple-color {
+                color: var(--wp--preset--color--vivid-purple) !important;
+            }
+
+            .has-black-background-color {
+                background-color: var(--wp--preset--color--black) !important;
+            }
+
+            .has-cyan-bluish-gray-background-color {
+                background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+            }
+
+            .has-white-background-color {
+                background-color: var(--wp--preset--color--white) !important;
+            }
+
+            .has-pale-pink-background-color {
+                background-color: var(--wp--preset--color--pale-pink) !important;
+            }
+
+            .has-vivid-red-background-color {
+                background-color: var(--wp--preset--color--vivid-red) !important;
+            }
+
+            .has-luminous-vivid-orange-background-color {
+                background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+            }
+
+            .has-luminous-vivid-amber-background-color {
+                background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+            }
+
+            .has-light-green-cyan-background-color {
+                background-color: var(--wp--preset--color--light-green-cyan) !important;
+            }
+
+            .has-vivid-green-cyan-background-color {
+                background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+            }
+
+            .has-pale-cyan-blue-background-color {
+                background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+            }
+
+            .has-vivid-cyan-blue-background-color {
+                background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+            }
+
+            .has-vivid-purple-background-color {
+                background-color: var(--wp--preset--color--vivid-purple) !important;
+            }
+
+            .has-black-border-color {
+                border-color: var(--wp--preset--color--black) !important;
+            }
+
+            .has-cyan-bluish-gray-border-color {
+                border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+            }
+
+            .has-white-border-color {
+                border-color: var(--wp--preset--color--white) !important;
+            }
+
+            .has-pale-pink-border-color {
+                border-color: var(--wp--preset--color--pale-pink) !important;
+            }
+
+            .has-vivid-red-border-color {
+                border-color: var(--wp--preset--color--vivid-red) !important;
+            }
+
+            .has-luminous-vivid-orange-border-color {
+                border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+            }
+
+            .has-luminous-vivid-amber-border-color {
+                border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+            }
+
+            .has-light-green-cyan-border-color {
+                border-color: var(--wp--preset--color--light-green-cyan) !important;
+            }
+
+            .has-vivid-green-cyan-border-color {
+                border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+            }
+
+            .has-pale-cyan-blue-border-color {
+                border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+            }
+
+            .has-vivid-cyan-blue-border-color {
+                border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+            }
+
+            .has-vivid-purple-border-color {
+                border-color: var(--wp--preset--color--vivid-purple) !important;
+            }
+
+            .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+                background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
+            }
+
+            .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+                background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
+            }
+
+            .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+                background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
+            }
+
+            .has-luminous-vivid-orange-to-vivid-red-gradient-background {
+                background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
+            }
+
+            .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+                background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
+            }
+
+            .has-cool-to-warm-spectrum-gradient-background {
+                background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
+            }
+
+            .has-blush-light-purple-gradient-background {
+                background: var(--wp--preset--gradient--blush-light-purple) !important;
+            }
+
+            .has-blush-bordeaux-gradient-background {
+                background: var(--wp--preset--gradient--blush-bordeaux) !important;
+            }
+
+            .has-luminous-dusk-gradient-background {
+                background: var(--wp--preset--gradient--luminous-dusk) !important;
+            }
+
+            .has-pale-ocean-gradient-background {
+                background: var(--wp--preset--gradient--pale-ocean) !important;
+            }
+
+            .has-electric-grass-gradient-background {
+                background: var(--wp--preset--gradient--electric-grass) !important;
+            }
+
+            .has-midnight-gradient-background {
+                background: var(--wp--preset--gradient--midnight) !important;
+            }
+
+            .has-small-font-size {
+                font-size: var(--wp--preset--font-size--small) !important;
+            }
+
+            .has-medium-font-size {
+                font-size: var(--wp--preset--font-size--medium) !important;
+            }
+
+            .has-large-font-size {
+                font-size: var(--wp--preset--font-size--large) !important;
+            }
+
+            .has-x-large-font-size {
+                font-size: var(--wp--preset--font-size--x-large) !important;
+            }
+
+            .wp-block-navigation a:where(:not(.wp-element-button)) {
+                color: inherit;
+            }
+
+            :where(.wp-block-post-template.is-layout-flex) {
+                gap: 1.25em;
+            }
+
+            :where(.wp-block-post-template.is-layout-grid) {
+                gap: 1.25em;
+            }
+
+            :where(.wp-block-columns.is-layout-flex) {
+                gap: 2em;
+            }
+
+            :where(.wp-block-columns.is-layout-grid) {
+                gap: 2em;
+            }
+
+            .wp-block-pullquote {
+                font-size: 1.5em;
+                line-height: 1.6;
+            }
+        </style>
+    <style>
+            .epu {
+                display: none;
+                text-align: center;
+                position: fixed;
+                top: 50%;
+                transform: translateY(-50%);
+                padding: 5px;
+                z-index: 9999999999;
+                background: #fff;
+                box-sizing: border-box;
+                overflow: hidden;
+                width: 500px;
+                left: calc(50% - 250px);
+                background-color: #ffffff;
+                ; border-radius: 15px;
+            }
+
+            .epu .epu-container {
+                display: block;
+                width: 100%;
+            }
+
+            .epu .epu-heading {
+                margin: 0 0 25px 0;
+                font-weight: bold;
+                font-size: 3em;
+                line-height: 1.1em;
+                color: #ccc;
+            }
+
+            .epu .epu-coax-text {
+                margin: 25px 0;
+                font-size: 1.5em;
+                color: #ccc;
+            }
+
+            .epu-rejection {
+                color: #ccc;
+                font-size: 1.125em;
+                cursor: pointer;
+                margin: 25px 0 0 0;
+            }
+
+            .epu-offer-code input[type="text"] {
+                padding: 5px 10px 3px 10px;
+                background: none;
+                border: none;
+                font-size: 2em;
+                line-height: 1em;
+                font-family: 'Courier New', Courier, monospace;
+                border: dashed 1px #ccc;
+                color: #ccc;
+                width: auto;
+                display: inline-block;
+                outline: 0;
+            }
+
+            .epu-copied span {
+                display: inline-block;
+                color: #fff;
+                background: #4caf50;
+                text-transform: uppercase;
+                padding: 3px 5px;
+                font-size: 13px;
+                border-radius: 2px;
+            }
+
+            .epu-button {
+                display: inline-block;
+                padding: 15px 20px;
+                background: ;
+                color: ;
+                text-decoration: none;
+                border-radius: 2px;
+            }
+
+            .epu-yes-no-button {
+                display: inline-block;
+                padding: 15px 20px;
+                text-decoration: none;
+                border-radius: 2px;
+                color: #fff;
+            }
+
+            .epu-yes-button {
+                background: #4caf50;
+                margin: 0 10px 0 0;
+            }
+
+            .epu-no-button {
+                background: #f44336;
+            }
+
+            .epu-close {
+                position: fixed;
+                top: 25px;
+                width: 25px;
+                height: 25px;
+                cursor: pointer;
+            }
+
+            .epu-close.right {
+                right: 20px;
+            }
+
+            .epu-close.left {
+                left: 20px;
+            }
+
+            .epu-mask {
+                background-color: #000000;
+                opacity: 1;
+                display: none;
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                z-index: 999999999;
+            }
+
+            /* Responsive */
+            @media screen and (max-width: 960px) {
+                .epu {
+                    left: 0;
+                    width: 100%;
+                    padding: 0;
+                }
+
+                .epu .epu-container {
+                    padding: 25px;
+                    width: 100%;
+                }
+
+                .epu .epu-heading {
+                    font-size: 1.5em;
+                }
+
+                .epu .epu-coax-text {
+                    margin: 15px 0;
+                    font-size: 1.125em;
+                }
+
+                .epu .bg-image {
+                    opacity: 1;
+                }
+            }
+        </style>
+    _____________________________________________________________________________________________________________________________
+    
+    tildes --> &atilde;
+    
+  
+    --------------------------------------------------------------------------------------
+    en realidad se borran los titulos de todas las historias no el bloque completo 
+<div class="story-item vibes">
+                        <div class="story-content">
+                            <div class="bg-img" style="background-image: url(stories/2.png);"></div>
+                            <a href="https://thesummerhunter.com/web-stories/dormiu-mal-saiba-como-sobreviver-ao-dia/" target="_blank" class="story-title">
+                                <h3>
+                                    <span style="background-color: #ff8e7a">Dormiu mal? Saiba como sobreviver ao dia </span>
+                                </h3>
+                                
+    -----                           
+ <section class="filters">
+                    <div>CATEGORIES</div>
+                    <ul>
+                        <li class="cat-filter active" type="button" data-filter=" ">All</li>
+                        <li class="cat-filter" type="button" data-filter="2">People</li>
+                        <li class="cat-filter" type="button" data-filter="3">Places</li>
+                        <li class="cat-filter" type="button" data-filter="4">Vibes</li>
+                    </ul>
+                    
+        tipo de imagen 
+            <source type="image/webp" src="imagenes/Logoicon.gif"/>
+            
+<div class="toggle-search">
+            <div class="close-text">
+                <img class="close" src="https://thesummerhunter.com/wp-content/themes/thesummerhunter/img/close.svg" alt>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <form class="search-form" method="get" action="https://thesummerhunter.com" role="search">
+                            <input class="search-input" type="search" name="s" placeholder="Type to search">
+                        </form>
+                    </div>
+                    <div class="col-12">
+                        <h4 class="helvetica center">Or Filter By Your Interest</h4>
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-sm-10">
+                                <ul>
+                                    <li>
+                                        <a href="https://thesummerhunter.com/tag/vibes/">Vibes</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://thesummerhunter.com/tag/viagem/">Viagem</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://thesummerhunter.com/tag/lifestyle/">Lifestyle</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://thesummerhunter.com/tag/diversao-arte/">Divers &atilde;o &amp;Arte</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://thesummerhunter.com/tag/people/">People</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://thesummerhunter.com/tag/moda/">Moda</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://thesummerhunter.com/tag/places/">Places</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://thesummerhunter.com/tag/brasil/">Brasil</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://thesummerhunter.com/tag/musica/">M &uacute;sica</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://thesummerhunter.com/tag/comer-beber/">Comer &amp;Beber</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://thesummerhunter.com/tag/tendencia/">Tend &ecirc;ncia</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://thesummerhunter.com/tag/rio-de-janeiro/">Rio de Janeiro</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://thesummerhunter.com/tag/sao-paulo/">S &atilde;o Paulo</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://thesummerhunter.com/tag/esporte/">Esporte</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://thesummerhunter.com/tag/this-is-living/">this is living</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://thesummerhunter.com/tag/corona/">corona</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+---
+cover del fondo 
+<div class="col coverLeft lazy" data-bg="url (imagenes/muestra13.PNG)"></div>
+                        <figure class="col coverRight places">
+                            <img class="lazy" src="https://thesummerhunter.com/wp-content/uploads/2024/02/Casyphoto_Delta_do_Parnaiba_Daniela_Casazza_01-1-scaled-e1707482799237-600x667.jpeg" data-src="https://thesummerhunter.com/wp-content/uploads/2024/02/Casyphoto_Delta_do_Parnaiba_Daniela_Casazza_01-1-scaled-e1707482799237.jpeg" alt>
+                        </figure>
+                        
+-----
+ <section id="Container" class="row">
+                    <div class="post-entry col-12 col-sm-6 places" data-class="post-entry-32070" data-id="32070">
+                        <figure>
+                            <a href="https://thesummerhunter.com/delta-do-parnaiba-nossas-dicas-pra-curtir-essa-maravilha-localizada-entre-o-piaui-e-o-maranhao/" class="mask places">
+                                <h3>
+                                    <span style="background-color: #87b270">Delta do Parna &iacute;ba: dicas pra curtir essa maravilha entre o Piau &iacute;e o Maranh &atilde;o </span>
+                                </h3>
+                            </a>
+                            <img class="lazy" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3C/svg%3E" data-src="https://thesummerhunter.com/wp-content/uploads/2024/02/Paisagem_SeuMaika_DeltaParnaiba-24-1024x768.jpeg" alt>
+                        </figure>
+                    </div>
+                    <div class="post-entry col-12 col-sm-6 vibes " data-class="post-entry-31975" data-id="31975">
+                        <figure>
+                            <a href="https://thesummerhunter.com/desenrola-episodio-29-vale-tudo-no-carnaval/" class="mask vibes ">
+                                <h3>
+                                    <span style="background-color: #2fbcf0">Desenrola, epis &oacute;dio #29: Vale tudo no Carnaval? </span>
+                                </h3>
+                            </a>
+                            <img class="lazy" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3C/svg%3E" data-src="https://thesummerhunter.com/wp-content/uploads/2024/02/Design-sem-nome-60-1024x576.jpg" alt>
+                        </figure>
+                    </div>
+                    <div class="post-entry col-12 col-sm-6 vibes " data-class="post-entry-31955" data-id="31955">
+                        <figure>
+                            <a href="https://thesummerhunter.com/a-realidade-das-maes-arrependidas/" class="mask vibes ">
+                                <h3>
+                                    <span style="background-color: #ff8e79">A realidade das m &atilde;es arrependidas </span>
+                                </h3>
+                            </a>
+                            <img class="lazy" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3C/svg%3E" data-src="https://thesummerhunter.com/wp-content/uploads/2024/02/naomi-august-aLnqDp3B3YU-unsplash-1024x683.jpg" alt>
+                        </figure>
+                    </div>
+                    <div class="post-entry col-12 col-sm-6 vibes " data-class="post-entry-31908" data-id="31908">
+                        <figure>
+                            <a href="https://thesummerhunter.com/trabalhar-com-pe-na-areia-e-melhor-anywhere-office-corona/" class="mask vibes ">
+                                <h3>
+                                    <span style="background-color: #87b270">Trabalhar com p &eacute;na areia &eacute;melhor </span>
+                                </h3>
+                            </a>
+                            <img class="lazy" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3C/svg%3E" data-src="https://thesummerhunter.com/wp-content/uploads/2024/02/garo-janboulian-ZuaPcqFEdoY-unsplash-scaled-e1706809531526-1024x718.jpg" alt>
+                        </figure>
+                    </div>
+                    <div class="post-entry col-12 col-sm-6 vibes " data-class="post-entry-31864" data-id="31864">
+                        <figure>
+                            <a href="https://thesummerhunter.com/desenrola-episodio-28-a-coragem-de-nao-agradar/" class="mask vibes ">
+                                <h3>
+                                    <span style="background-color: #2fbcf0">Desenrola, epis &oacute;dio #28: A coragem de n &atilde;o agradar </span>
+                                </h3>
+                            </a>
+                            <img class="lazy" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3C/svg%3E" data-src="https://thesummerhunter.com/wp-content/uploads/2024/01/Design-sem-nome-68-1024x576.png" alt>
+                        </figure>
+                    </div>
+                    <div class="post-entry col-12 col-sm-6 places " data-class="post-entry-31835" data-id="31835">
+                        <figure>
+                            <a href="https://thesummerhunter.com/vida-de-hotel-la-ferme-de-georges/" class="mask places ">
+                                <h3>
+                                    <span style="background-color: #ff8e79">Vida de Hotel: La Ferme de Georges </span>
+                                </h3>
+                            </a>
+                            <img class="lazy" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3C/svg%3E" data-src="https://thesummerhunter.com/wp-content/uploads/2024/01/La_Ferme_de_Georges_Chalet_Tree_113-1024x683.jpg" alt>
+                        </figure>
+                    </div>
+                </section>
+            </main>
+            
+    ____
+    
+    titulo scroll
+    <main class="row posts-loop">
+                <section class="scroller">
+                    <div>
+                        <div class="webstories-bkg-title"> <span style="color: #2aff00; font-size: 250px">VÉRTIGO</span></div>
+                    </div>
+                </section>
+                
+---
+   <div class="post-entry col-6 vibes " data-class="post-entry-31955" data-id="31955">
+                        <figure>
+                            <a href="-" class="mask vibes ">
+                              
+                            </a> 
+                             <img class="lazy" src="imagenes/17.png" data-src="imagenes/17.png" alt>
+                        </figure>
+---
+<div class="brands">
+                    <ul id="menu-featured" class="menu">
+                        <li id="menu-item-21785" class="menu-item menu-item-type-taxonomy menu-item-object-brands menu-item-21785">
+                            <a href="https://thesummerhunter.com/brand/boticario-linha-intima-cuide-bem-cereja-livre/">Botic &aacute;rio</a>
+                        </li>
+                        <li id="menu-item-31121" class="menu-item menu-item-type-taxonomy menu-item-object-brands menu-item-31121">
+                            <a href="https://thesummerhunter.com/brand/cerveja-corona/">Corona</a>
+                        </li>
+                        <li id="menu-item-15119" class="menu-item menu-item-type-taxonomy menu-item-object-brands menu-item-15119">
+                            <a href="https://thesummerhunter.com/brand/havaianas-sandalias-brasil/">Havaianas</a>
+                        </li>
+                        <li id="menu-item-23340" class="menu-item menu-item-type-taxonomy menu-item-object-brands menu-item-23340">
+                            <a href="https://thesummerhunter.com/brand/ibis-styles-wow/">ibis Styles</a>
+                        </li>
+                        <li id="menu-item-28304" class="menu-item menu-item-type-taxonomy menu-item-object-brands menu-item-28304">
+                            <a href="https://thesummerhunter.com/brand/neutrogena/">Neutrogena</a>
+                        </li>
+                        <li id="menu-item-31120" class="menu-item menu-item-type-taxonomy menu-item-object-brands menu-item-31120">
+                            <a href="https://thesummerhunter.com/brand/olympikus/">Olympikus</a>
+                        </li>
+                    </ul>
+                </div>
+                
+____
+<iframe width="1600" height="600" src="https://www.youtube.com/embed/zIdVkQ_oe3o" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+--
+<section class="second-container" style="background-image: url(imagenes/top.png)">
+
+
+--
+<!------------------
+        <link type="text/css" media="all" href="https://thesummerhunter.com/wp-content/cache/breeze-minification/css/breeze_f38b2db10e01b1572732a3191d538707.css" rel="stylesheet"/>
+        <link type="text/css" media="all" href="https://thesummerhunter.com/wp-content/cache/breeze-minification/css/breeze_20e8490fab0dcf7557a5c8b54494db6f.css" rel="stylesheet"/>
+        <link type="text/css" media="all" href="https://thesummerhunter.com/wp-content/cache/breeze-minification/css/breeze_359aca8a88b2331aa34ac505acad9911.css" rel="stylesheet"/>
+        <link type="text/css" media="all" href="https://thesummerhunter.com/wp-content/cache/breeze-minification/css/breeze_836625e5ecabdada6dd84787e0f72a16.css" rel="stylesheet"/>
+        <link type="text/css" media="all" href="https://thesummerhunter.com/wp-content/cache/breeze-minification/css/breeze_9850719e21e284c97620620700b7b542.css" rel="stylesheet"/>
+        <link type="text/css" media="all" href="https://thesummerhunter.com/wp-content/cache/breeze-minification/css/breeze_80b5f77f25e58d1158652f8d481c854f.css" rel="stylesheet"/>
+        <link type="text/css" media="all" href="https://thesummerhunter.com/wp-content/cache/breeze-minification/css/breeze_208cc6ec5d2ac293b9c6cd6610c2d4cf.css" rel="stylesheet"/>
+        <link type="text/css" media="all" href="https://thesummerhunter.com/wp-content/cache/breeze-minification/css/breeze_a2b7515d75c2d9da5eaf675e632fee1f.css" rel="stylesheet"/>
+        <link type="text/css" media="all" href="https://thesummerhunter.com/wp-content/cache/breeze-minification/css/breeze_73db9f6aab2e54fd44cfa3bcc79085a6.css" rel="stylesheet"/>
+        <link type="text/css" media="all" href="https://thesummerhunter.com/wp-content/cache/breeze-minification/css/breeze_ab7caa8d9d82d1421c3100bf44afce90.css" rel="stylesheet"/>
+        <link type="text/css" media="all" href="https://thesummerhunter.com/wp-content/cache/breeze-minification/css/breeze_d08233e40b6249d92bbbe3f3bb5f212f.css" rel="stylesheet"/>
+        <link type="text/css" media="all" href="https://thesummerhunter.com/wp-content/cache/breeze-minification/css/breeze_4b53fcb51200eb80c8a1a7af3395b82f.css" rel="stylesheet"/>
+ -------------------------------------------------------------------------
+        
+---------------------->
+.elementor-kit-12527 {
+    --e-global-color-primary: #6ec1e4;
+    --e-global-color-secondary: #54595f;
+    --e-global-color-text: #7a7a7a;
+    --e-global-color-accent: #61ce70;
+    --e-global-typography-primary-font-family: "League Spartan";
+    --e-global-typography-primary-font-weight: 600;
+    --e-global-typography-secondary-font-family: "Bauer Bodoni Std";
+    --e-global-typography-secondary-font-weight: 400;
+    --e-global-typography-text-font-family: "Neuemontreal";
+    --e-global-typography-text-font-weight: 400;
+    --e-global-typography-accent-font-family: "Neuemontreal";
+    --e-global-typography-accent-font-weight: 500;
+    --e-global-typography-c97aa73-font-family: "Neuemontral"
+    
+    
+    ___
+    
+       <section class="content col-10" style="margin-left: 250px; margin-right: 10px">
+       
+       
+       ---
+       @font-face {
+    font-family: futura round;
+    font-style: normal;
+    font-weight: 900;
+    font-display: auto;
+    src: url(https://thesummerhunter.com/wp-content/uploads/2023/08/FuturaRoundCond-ExtraBold.eot);
+    src: url(https://thesummerhunter.com/wp-content/uploads/2023/08/FuturaRoundCond-ExtraBold.eot?#iefix) format('embedded-opentype'),url(https://thesummerhunter.com/wp-content/uploads/2023/08/FuturaRoundCond-ExtraBold.woff2) format('woff2'),url(https://thesummerhunter.com/wp-content/uploads/2023/08/FuturaRoundCond-ExtraBold.woff) format('woff'),url(https://thesummerhunter.com/wp-content/uploads/2023/08/FuturaRoundCond-ExtraBold.ttf) format('truetype'),url(https://thesummerhunter.com/wp-content/uploads/2023/08/FuturaRoundCond-ExtraBold.svg#FuturaRound) format('svg')
+} 
+
+
+-
+<div class="d-flex justify-content-end align-items-right"> <!-- Contenedor de la imagen alineado a la derecha -->
+        <img src="Avatar/AVATAR2.jpg" style="width: 60px;">
+    </div>
+    
+    ----
+     <div class="webstories-link" style="font-family: 'Raleway'">
+                        <a href="-">Ver todos los posts</a>
+                    </div> 
+                    
+                    
+        -----
+input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+button::-moz-focus-inner,input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+En la etiqueta body:    elementor-kit-12527 | aa-prefix-thesu- | elementor-page | elementor-page-123  | 
+
+--
+<script type="text/javascript" src="https://thesummerhunter.com/wp-content/themes/thesummerhunter/js/lib/myloadmore.js?v=23&amp;ver=6.4.3" id="my_loadmore-js"></script>
+<script type="text/javascript" id="my_loadmore-js-extra">
+            /*  */
+            var misha_loadmore_params = {
+                "ajaxurl": "https:\/\/thesummerhunter.com\/wp-admin\/admin-ajax.php",
+                "posts": "{\"error\":\"\",\"m\":\"\",\"p\":\"123\",\"post_parent\":\"\",\"subpost\":\"\",\"subpost_id\":\"\",\"attachment\":\"\",\"attachment_id\":0,\"name\":\"\",\"pagename\":\"\",\"page_id\":\"123\",\"second\":\"\",\"minute\":\"\",\"hour\":\"\",\"day\":0,\"monthnum\":0,\"year\":0,\"w\":0,\"category_name\":\"\",\"tag\":\"\",\"cat\":\"\",\"tag_id\":\"\",\"author\":\"\",\"author_name\":\"\",\"feed\":\"\",\"tb\":\"\",\"paged\":0,\"meta_key\":\"\",\"meta_value\":\"\",\"preview\":\"\",\"s\":\"\",\"sentence\":\"\",\"title\":\"\",\"fields\":\"\",\"menu_order\":\"\",\"embed\":\"\",\"category__in\":[],\"category__not_in\":[],\"category__and\":[],\"post__in\":[],\"post__not_in\":[],\"post_name__in\":[],\"tag__in\":[],\"tag__not_in\":[],\"tag__and\":[],\"tag_slug__in\":[],\"tag_slug__and\":[],\"post_parent__in\":[],\"post_parent__not_in\":[],\"author__in\":[],\"author__not_in\":[],\"search_columns\":[],\"ignore_sticky_posts\":false,\"suppress_filters\":false,\"cache_results\":true,\"update_post_term_cache\":true,\"update_menu_item_cache\":false,\"lazy_load_term_meta\":true,\"update_post_meta_cache\":true,\"post_type\":\"\",\"posts_per_page\":12,\"nopaging\":false,\"comments_per_page\":\"50\",\"no_found_rows\":false,\"order\":\"DESC\"}",
+                "current_page": "1",
+                "max_page": "0"
+            };
+            /*  */
+        </script>
+<section id="misha_loadmore" class="col-12 load-more justify-content-center align-items-center" data-args="{&quot;post_type&quot;:&quot;post&quot;,&quot;posts_per_page&quot;:&quot;6&quot;,&quot;meta_query&quot;:{&quot;relation&quot;:&quot;OR&quot;,&quot;0&quot;:{&quot;key&quot;:&quot;hidden_post&quot;,&quot;value&quot;:false,&quot;type&quot;:&quot;BOOLEAN&quot;},&quot;1&quot;:{&quot;key&quot;:&quot;hidden_post&quot;,&quot;compare&quot;:&quot;NOT EXISTS&quot;},&quot;2&quot;:{&quot;key&quot;:&quot;hidden_post&quot;,&quot;value&quot;:&quot;0&quot;}}}" data-max-page="232" data-current-page="1">
+                <div class="dots-cont">
+                    <div class="dot dot-1"></div>
+                    <div class="dot dot-2"></div>
+                    <div class="dot dot-3"></div>
+                </div>
+            </section>
+  mark {
+    background: #ff0;
+    color: #000;
+}
+--
+@media(max-width: 1024px) {
+    .elementor-section.elementor-section-boxed>.elementor-container {
+        max-width:1024px;
+    }
+
+    .e-con {
+        --container-max-width: 1024px;
+    }
+}
+
+@media(max-width: 767px) {
+    .elementor-section.elementor-section-boxed>.elementor-container {
+        max-width:767px;
+    }
+
+    .e-con {
+        --container-max-width: 767px;
+    }
+}
+---
+.cover .coverBackground .coverLeft {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    animation: fade-in 1.5s ease-in-out forwards
+}
+
+.cover .coverBackground .coverRight {
+    height: 100%;
+    position: relative
+}
+
+.cover .coverBackground .coverRight.people {
+    background: #fac773
+}
+
+.cover .coverBackground .coverRight.places {
+    background: #9dbc8f
+}
+
+.cover .coverBackground .coverRight.vibes {
+    background: #84cde8
+}
+.cover .coverBackground .coverRight img {
+    max-width: 60%;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%)
+}
+---
+.second-container,
+.third-container {
+    transition: background-color 0.10s ease-in-out;
+}
+--
+.second-container {
+    padding: 40px; /* Espacio interno */
+    margin: 0px; /* Centrar el contenido */
+   height: 400px;     /* altura del contenedor */
+}
+---
+<script type="text/javascript" src="https://thesummerhunter.com/wp-content/plugins/mailster/assets/js/form.min.js?ver=3.3.13" id="mailster-form-js"></script>
+---
+  <script type="text/javascript" src="https://thesummerhunter.com/wp-content/themes/thesummerhunter/js/lib/lazyload.min.js?ver=1.8.4" id="lazyload-js"></script>
+  
+   <script type="text/javascript" src="https://thesummerhunter.com/wp-includes/js/imagesloaded.min.js?ver=5.0.0" id="imagesloaded-js"></script>
+   
+   _
+   <script>
+            !function() {
+                window.advanced_ads_ready_queue = window.advanced_ads_ready_queue || [],
+                advanced_ads_ready_queue.push = window.advanced_ads_ready;
+                for (var d = 0, a = advanced_ads_ready_queue.length; d < a; d++)
+                    advanced_ads_ready(advanced_ads_ready_queue[d])
+            }();
+        </script>
+    Este script JavaScript crea una cola para almacenar las funciones que se ejecutarán cuando la librería "Advanced Ads" esté lista. La librería "Advanced Ads" es una herramienta para la gestión y optimización de anuncios en sitios web.
+
+Aquí hay un resumen de lo que hace el script:
+
+Creación de la cola: Se define un objeto advanced_ads_ready_queue en el ámbito global (en el objeto window). Si este objeto ya existe, se utiliza, de lo contrario, se crea como un array vacío.
+
+Redirección de la función push: Se sobrescribe el método push del array advanced_ads_ready_queue para que, en lugar de simplemente añadir elementos al array, llame a la función advanced_ads_ready con cada elemento que se añada a la cola.
+
+Ejecución de las funciones en la cola: Se recorre la cola advanced_ads_ready_queue y se ejecuta la función advanced_ads_ready con cada elemento de la cola como argumento.
+
+En resumen, este script garantiza que todas las funciones que se agreguen a la cola advanced_ads_ready_queue se ejecuten una vez que la librería "Advanced Ads" esté lista y disponible en la página web. Esto permite que el código relacionado con "Advanced Ads" se ejecute de manera ordenada y segura.
+
+
+User
+si al final no tengo anuncios en mi web me sobra no?
+ChatGPT
+Sí, si finalmente decides no utilizar la librería "Advanced Ads" en tu sitio web y no tienes ningún código relacionado con anuncios, entonces este script podría ser innecesario y podrías eliminarlo de tu página.
+
+Eliminar este script no tendría ningún impacto negativo en el funcionamiento de tu sitio web, ya que solo se encarga de preparar la ejecución de funciones relacionadas con "Advanced Ads" que no están presentes en tu página. Sin embargo, si en el futuro decides utilizar la librería "Advanced Ads" o algún código relacionado con anuncios, asegúrate de tener una forma de gestionar y ejecutar esas funciones de manera adecuada.
+
+-----
+
+
+<svg animation="waveAnimation2 4s linear infinite" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,320L80,272C160,224,320,128,480,122.7C640,117,800,203,960,224C1120,245,1280,203,1360,181.3L1440,160L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
+
+.wave {
+    position: relative;
+    width: 100%;
+    height: 100px; /* Ajusta la altura según sea necesario */
+    overflow: hidden;
+    z-index: 2; /* Asegura que la ola esté por encima del fondo */
+}
+
+.wave svg {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(0); /* Ajusta la posición vertical según sea necesario */
+    animation: waveAnimation 4s linear infinite;
+    z-index: 1; /* Asegura que la ola esté detrás del contenido */
+}
+
+.wave2 svg {
+    transform: translateY(120px); /* Ajusta la posición vertical según sea necesario */
+    animation: waveAnimation2 4s linear infinite;
+    animation-delay: -2s; /* Retrasa la animación para crear un efecto escalonado */
+}
+
+@keyframes waveAnimation {
+    0% {
+        transform: translateY(120px);
+    }
+    100% {
+        transform: translateY(200px);
+    }
+}
+
+@keyframes waveAnimation2 {
+    0% {
+        transform: translateY(120px);
+    }
+    100% {
+        transform: translateY(240px);
+    }
+}
+---
+.wave {
+      position: absolute;
+      left: -180px;
+      bottom: 0;
+      /*width: 200px;*/
+      /*height: 200px;*/
+      width: 100%;
+      border-radius: 45%;
+      width: 2402px;
+      height: 190px;
+     background: url('https://static.platzi.com/media/files/waves_c8551f5d-ecf6-4a81-ae1d-f3a0ad55ba10.png') center bottom no-repeat;
+     animation: wave 4s ease-in-out infinite alternate;
+    }
+.wave.a {
+    background-position: 0 -950px;
+    z-index: 4;
+    border-radius: 0%;
+    }
+.wave.b {
+      background-position: 0 -100px;
+      animation-delay: 1.2s;
+      height: 185px;
+      z-index: 4;
+      border-radius: 0%;
+    }
+    ---
+    div[data-was-processed=true] {
+    animation: fade-in .5s ease-in-out forwards
+}
+-------
+
+.places-carousel {
+    width: 100%;
+    margin: 50px 0 250px
+}
+
+.places-carousel .carousel-cell.end {
+    height: 500px
+}
+
+.places-carousel .carousel-cell.end a {
+    background: #9dbc8f;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column
+}
+
+.places-carousel .carousel-cell.end img {
+    max-width: 30px;
+    height: auto
+}
+
+.places-carousel .carousel-cell.end h4 {
+    color: #fff;
+    margin: 20px 0
+}
+
+.places-carousel .carousel-cell .image {
+    position: relative
+}
+
+.places-carousel .carousel-cell img {
+    height: 500px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 100%
+}
+
+.places-carousel .carousel-cell .mask {
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.6);
+    position: absolute;
+    top: 0;
+    padding: 0 2vw;
+    color: #fff;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: all .3s cubic-bezier(.165,.84,.44,1)
+}
+
+.places-carousel .carousel-cell .mask h4 {
+    font-size: 2vw
+}
+
+.places-carousel .carousel-cell .mask h3 {
+    margin: 10px 0
+}
+
+.places-carousel .carousel-cell .mask h6 {
+    margin: 5px 0
+}
+
+.places-carousel .carousel-cell:hover .mask {
+    opacity: 1;
+    visibility: visible
+}
+
+.places-carousel .carousel-cell .subtitle {
+    font-family: merriweather,serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 15px 0;
+    line-height: 20px
+}
+---- 
+.bubble::before {
+  content: "";
+  display: inline-block;
+  background: #fff07c;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  transform: scale(1) translate3d(75px, 0, 0);
+  box-shadow: 0 0 10px 0 #0000ff inset, 0 0 10px 0 #0000ff inset;
+}
+ <div class="submenu">
+                <ul id="menu-submenu" class="menu">
+                    <li id="menu-item-11176" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11176" style="font-family: Raleway">
+                        <a href="origen.html">Origen</a>
+                    </li>
+                    <li id="menu-item-11175" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11175" style="font-family: Raleway">
+                        <a href="-">Servicios</a>
+                    </li>
+                    <li id="menu-item-11177" class="newsletter-btn menu-item menu-item-type-custom menu-item-object-custom menu-item-11177" style="font-family: Raleway">
+                        <a href="NEWSLETTER/newsletter.html">Newsletter</a>
+                    </li>
+                    <li id="menu-item-27013" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-27013" style="font-family: Raleway">
+                        <a href="-">Podcast</a>
+                    </li>
+                </ul>
+    ------------------------------------------------
+    carusel foto cover: 
+        object-fit: contain; /* Ajusta la imagen para que se muestre completa dentro del contenedor sin distorsionarse */
+        
+        
+        
+         <div class="cube__face cube__face--top">
+                 <video class="video__container" autoplay muted loop>
+                        <source class="video__media" src="videos/OasisRobot.mp4" type="video/mp4">
+                 </video>
+ </div>
+ <div class="cube__face cube__face--bottom">
+              <video class="video__container" autoplay muted loop>
+                    <source class="video__media" src="videos/OasisRobot.mp4" type="video/mp4">
+               </video>
+  </div>
+  
+  
+  
+  ----
+    @media (max-width: 900px) {
+    .containertripu {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        width: 600px; /* Ajusta el ancho deseado para adaptarse a pantallas más pequeñas */
+        height: auto; /* Cambiado a auto para permitir el ajuste de altura automático */
+    }
+
+    .bodybarca {
+        top: 50%; /* Ajusta la posición vertical */
+        left: 50%; /* Ajusta la posición horizontal */
+        transform: translate(-50%, -50%); /* Ajusta la posición central */
+    }
+}
+/* Para teléfonos móviles */
+@media (max-width: 576px) {
+    .containertripu {
+        grid-template-columns: repeat(1, minmax(0, 1fr)); /* Una sola columna para dispositivos móviles */
+        width: 90%; /* Ajusta el ancho para ocupar el 90% del viewport */
+        height: auto; /* Cambiado a auto para permitir el ajuste de altura automático */
+    }
+
+    .bodybarca {
+        position: static; /* Restaura la posición estática */
+        top: auto; /* Restaura la posición vertical */
+        left: auto; /* Restaura la posición horizontal */
+        transform: none; /* Restaura la transformación */
+        display: block; /* Cambiado a block para ajustar el flujo normal del contenido */
+        width: 100%; /* Ajusta el ancho al 100% */
+        height: auto; /* Cambiado a auto para permitir el ajuste de altura automático */
+    }
+}
+
+/* Para tabletas */
+@media (min-width: 577px) and (max-width: 992px) {
+    .containertripu {
+        grid-template-columns: repeat(2, minmax(0, 1fr)); /* Dos columnas para tabletas */
+        width: 80%; /* Ajusta el ancho para ocupar el 80% del viewport */
+        height: auto; /* Cambiado a auto para permitir el ajuste de altura automático */
+    }
+}

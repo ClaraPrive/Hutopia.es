@@ -1,0 +1,815 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        
+        
+        <meta charset="UTF-8">
+        <script src="https://kit.fontawesome.com/e4e5d6c1ee.js" crossorigin="anonymous"></script>
+        <title>HUTOPIA</title>
+        <link href="imagenes/Logoicon.gif" rel="shortcut icon">
+        <link href="imagenes/Logoicon.gif" rel="apple-touch-icon-precomposed">
+        <meta name="description" content="Una red humana para saltar al abismo de la Inteligencia Artificial"/>
+        <link rel="alternate" type="application/rss+xml" title="Feed de HUTOPIA" href="historias.xml">
+        <link rel="icon" href="imagenes/PORFIN.svg" sizes="32x32"/>
+        <link rel="icon" href="imagenes/PORFIN.svg" sizes="192x192"/>
+        <link rel="apple-touch-icon" href="imagenes/PORFIN.svg"/>
+        <meta name="msapplication-TileImage" content="imagenes/Logoicon.gif"/>
+         <link href="1.css" rel="stylesheet"/>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;1,100&display=swap" rel="stylesheet">
+        <script id="thesu-ready">
+            window.advanced_ads_ready = function(e, a) {
+                a = a || "complete";
+                var d = function(e) {
+                    return "interactive" === a ? "loading" !== e : "complete" === e
+                };
+                d(document.readyState) ? e() : document.addEventListener("readystatechange", (function(a) {
+                    d(a.target.readyState) && e()
+                }
+                ), {
+                    once: "interactive" === a
+                })
+            }
+            ,
+            window.advanced_ads_ready_queue = window.advanced_ads_ready_queue || [];
+        </script>
+
+<link rel="stylesheet" id="google-fonts-1-css" href="https://fonts.googleapis.com/css?family=Merriweather%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMerriweather+Sans%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=auto&#038;ver=6.4.3" media="all"/>
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+      
+<script type="text/javascript" src="js/jquery.js" id="jquery-js"></script>
+        
+        
+<script type="text/javascript" src="https://thesummerhunter.com/wp-content/themes/thesummerhunter/js/lib/conditionizr-4.3.0.min.js?ver=4.3.0" id="conditionizr-js"></script>
+<script type="text/javascript" src="https://thesummerhunter.com/wp-content/themes/thesummerhunter/js/lib/modernizr-2.7.1.min.js?ver=2.7.1" id="modernizr-js"></script>
+
+     
+        
+        <script>
+            // conditionizr.com
+            // configure environment tests
+            conditionizr.config({
+                assets: '',
+                tests: {}
+            });
+        </script>
+<style>
+        @import url("https://fonts.googleapis.com/css2?family=Figtree&display=swap");
+
+
+
+body {
+	display: grid;
+	place-content: center;
+	margin-bottom: auto;
+}
+
+.containertripu {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr)); /* Utiliza minmax para establecer un ancho mínimo */
+    width: 900px;
+    height: 760px;
+    transition: all 400ms;
+    overflow: hidden; /* Para evitar que el contenido desborde cuando se cambia el ancho de las columnas */
+    
+}
+
+.containertripu:hover .box {
+	filter: grayscale(100%) opacity(24%);
+}
+
+.box {
+	position: relative;
+	background: var(--img) center center;
+	background-size: cover;
+	transition: all 400ms;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    font-family: Raleway;
+    font-weight: 600;
+    
+}
+
+.containertripu .box:hover {
+	filter: grayscale(0%) opacity(100%);
+}
+
+.containertripu:has(.box-1:hover) {
+	grid-template-columns: 3fr 1fr 1fr 1fr 1fr;
+    cursor: pointer;
+}
+
+.containertripu:has(.box-2:hover) {
+	grid-template-columns: 1fr 3fr 1fr 1fr 1fr;
+     cursor: pointer;
+}
+
+.containertripu:has(.box-3:hover) {
+	grid-template-columns: 1fr 1fr 3fr 1fr 1fr;
+     cursor: pointer;
+}
+
+.containertripu:has(.box-4:hover) {
+	grid-template-columns: 1fr 1fr 1fr 3fr 1fr;
+     cursor: pointer;
+}
+
+.containertripu:has(.box-5:hover) {
+	grid-template-columns: 1fr 1fr 1fr 1fr 3fr;
+     cursor: pointer;
+}
+
+.box:nth-child(odd) {
+	transform: translateY(-16px);
+}
+
+.box:nth-child(even) {
+	transform: translateY(16px);
+}
+
+.box::after {
+	content: attr(data-text);
+	position: absolute;
+	bottom: 20px;
+	background: #000;
+	color: #fff;
+	padding: 10px 10px 10px 14px;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+	transform: translateY(60px);
+	opacity: 0;
+	transition: all 400ms;
+}
+
+.box:hover::after {
+	transform: translateY(0);
+	opacity: 1;
+	transition-delay: 400ms;
+}
+    /* Nuevos estilos para el texto flotante */
+.tooltip {
+    position: absolute;
+    display: none;
+    background: black;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+    color: white; /* Establece el color del texto en blanco */
+    font-family: Raleway;
+    font-weight: 550;
+}
+
+.tooltip.show {
+    display: block;
+}
+    
+.bodybarca {
+    position: absolute; /* Cambiado */
+    top: 1580px; /* Añadido */
+    left: 50%; /* Añadido */
+    transform: translate(-50%, -50%); /* Añadido */
+    z-index: 0;
+    display: flex; /* Añadido */
+    justify-content: center; /* Añadido */
+    align-items: center; /* Añadido */
+    width: 100%; /* Añadido */
+    height: 100%; /* Añadido */
+}
+  
+
+</style>
+    </head>
+    
+<!--    CUERPO DE LA PÁGINA-->
+    
+    <body>
+        
+        <div class="nav ">
+            <div class="col-12 center header-content">
+                <div class="col"></div>
+                <div class="col">
+                    <a class="header-logo" href="http://hutopia.es/">
+                        <img class="logo" src="imagenes/PORFIN.svg" alt>
+                    </a>
+                </div>
+                <div class="col"></div>
+            </div>
+        </div>
+<!-- ************************* ----->
+         <div class="menu-button"></div>
+        <div class="toggle-menu">
+            <div class="mainmenu">
+                <ul id="menu-toggle-top-menu" class="menu">
+                     <li id="vibes" class="menu-item">
+                        <a href="drops.html">Drops</a>
+                    </li>
+                    <li id="people" class="menu-item">
+                        <a href="wavemakersurfers.html">Wavemakers &amp; Surfers </a>
+                    </li>
+                    <li id="webstories" class="menu-item">
+                        <a href="bubbles.html">Bubbles</a>
+                    </li>
+                    <li id="featured" class="menu-item">
+                        <a href="https://open.spotify.com/user/314sjhqdjznvhvuqu7zbighkv5tm">The Shore</a> </li>
+                    <li id="metaverse" class="menu-item">  <a href="https://www.roblox.com/games/16499004495/"> The Reef</a></li>
+                </ul>
+            </div>
+<div class="col-md-3">
+    <ul class="menu-header social">
+        <li class="social-media">
+            <a href="https://www.instagram.com/hutopia.es?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </li>
+        <li class="social-media">
+            <a href="https://open.spotify.com/user/314sjhqdjznvhvuqu7zbighkv5tm" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-spotify"></i>
+            </a>
+        </li>
+        <li class="social-media">
+            <a href="https://www.linkedin.com/in/hutopia-es-7377952b0/" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-linkedin"></i>
+            </a>
+        </li>
+        <li class="social-media">
+            <a href="https://www.facebook.com/profile.php?id=61557282760796 " target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i></a>
+        </li>
+        <li class="social-media">
+            <a href="https://www.tiktok.com/@hutopia.es?is_from_webapp=1&sender_device=pc" target="_blank" rel="noopener noreferrer"><i class="fab fa-tiktok"></i></a>
+        </li>
+        <li class="social-media">
+            <a href="https://x.com/Hutopia_es?s=20" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-x-twitter"></i></a>
+        </li> 
+    </ul>
+</div>
+        </div>
+
+      
+      
+<!-- ********************************************************  -->
+   <br>
+        <br>
+<div class="paginaindividual" style="margin-top: 190px">
+     <h1><span style="font-family: Raleway; font-size: 60px;letter-spacing:10px ">Tripulación </span></h1>
+        </div>
+       
+ <div class="contenidoprincipal" style="margin-left: 270px; margin-right: 270px; line-height: 40px; text-align: justify"> 
+     <br>
+     <br>
+<div class="containertripu">
+    <div class="box box-1" style="--img: url(Avatar/mafer.png);" data-text="Mafer - Directora">
+    <div class="tooltip" data-text="'Como periodista aspiro a crear un mundo mejor informado y preparado para enfrentarse a nuestro océano dinámico y cambiante.'."></div>
+</div>
+	<div class="box box-2" style="--img: url(Avatar/vero.jpg);" data-text="Veronica-Diseñadora y Fotógrafa">
+    <div class="tooltip" data-text="'La vida es una playa, disfruta de las ola'."></div>
+ </div>
+	<div class="box box-3" style="--img: url(Avatar/joaquin.jpg);" data-text="Joaquín-Redes Sociales">
+    <div class="tooltip" data-text="'Las redes son la mejor manera de pescar tendencias '."></div>
+</div>
+	<div class="box box-4" style="--img: url(Avatar/ainhoa.jpg);" data-text="Ainhoa - Redactora ">
+    <div class="tooltip" data-text="'Todos tenemos una historia que nos define, es nuestra pequeña identidad'"></div>
+</div>
+	
+    <div class="box box-5" style="--img: url(Avatar/valeria.jpg);" data-text="Valeria-Redactora y Contabilidad">
+    <div class="tooltip" data-text="'Explorando y calculando nuevos horizontes'."></div>
+</div>
+</div>
+        <br>
+<div class="containertripu" style="margin-bottom: 150px">
+	<div class="box box-1" style="--img: url(Avatar/julien.png);" data-text="Julien-Redactor">
+    <div class="tooltip" data-text="'La inteligencia artificial es el puente entre el presente y el futuro, construido con los ladrillos del ingenio humano'."></div>
+</div>
+	<div class="box box-2" style="--img: url(Avatar/arantxa.png);" data-text="Arantxa-Redactora">
+    <div class="tooltip" data-text="'El mar en calma nunca hizo un buen navegante'."></div>
+</div>
+	<div class="box box-3" style="--img: url(Avatar/clara.jpg);" data-text="Clara-Diseño Web y Fotógrafa ">
+    <div class="tooltip" data-text="'Si no sabes navegar, no pasa nada, pero no hay que quedarse estancado en la bahía, sino acercarse al arrecife'."></div>
+</div>
+	<div class="box box-4" style="--img: url(Avatar/juanita.png);" data-text="Juanita-Redactora y Fotógrafa">
+    <div class="tooltip" data-text="'Antes de la calma siempre viene la tormenta'."></div>
+</div>
+	
+    <div class="box box-5" style="--img: url(Avatar/gorka2.jpg);" data-text="Gorka - Consultant">
+    <div class="tooltip" data-text="'Todo el mundo tiene algo que demostrar'."></div>
+</div>
+</div>
+ 
+        </div>
+
+    
+        
+       
+          
+<!-- FOOTER | PIE DE PÁGINA -->      
+<section>
+    <div class="row footer align-items-center center">
+    <div class="col-md-3"> <img class="logo" src="imagenes/PORFIN.svg" alt=""></div>
+    
+    <div class="col-md-6"><ul id="menu-footer" class="menu-footer">
+        <li id="menu-item-12930" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-12930"><a href="index.html" aria-current="page">Home</a></li>
+        <li id="menu-item-12932" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-12932">
+            <a href="origen.html">Horizon</a></li>
+         <li id="menu-item-12931" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-12931">
+            <a href="tripulacion.html">The Crew</a></li>
+        <li id="menu-item-12933" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-12933">
+            <a href="newsletter.html">Newsletter</a></li>
+       
+        </ul>
+    </div>
+    
+<div class="col-md-3">
+    <ul class="menu-footer social">
+        <li class="social-media">
+            <a href="https://www.instagram.com/hutopia.es?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </li>
+        <li class="social-media">
+            <a href="" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-spotify"></i>
+            </a>
+        </li>
+        <li class="social-media">
+            <a href="https://www.linkedin.com/in/hutopia-es-7377952b0/" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-linkedin"></i>
+            </a>
+        </li>
+        <li class="social-media">
+            <a href="https://www.facebook.com/profile.php?id=61557282760796 " target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i></a>
+        </li>
+        <li class="social-media">
+            <a href="https://www.tiktok.com/@hutopia.es?is_from_webapp=1&sender_device=pc" target="_blank" rel="noopener noreferrer"><i class="fab fa-tiktok"></i></a>
+        </li>
+        <li class="social-media">
+            <a href="https://x.com/Hutopia_es?s=20" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-x-twitter"></i></a>
+        </li> 
+    </ul>
+    </div>
+        </div>
+         </section>
+<!--    *****ARCHIVOS JAVA*****        -->
+     <script>
+document.addEventListener("DOMContentLoaded", function() {
+    const boxes = document.querySelectorAll('.box');
+
+    boxes.forEach(box => {
+        box.addEventListener('mouseenter', () => {
+            box.style.cursor = "pointer";
+        });
+
+        box.addEventListener('click', () => {
+            const text = box.getAttribute('data-text');
+            const tooltipText = box.querySelector('.tooltip').getAttribute('data-text');
+            const tooltip = document.createElement('div');
+            tooltip.classList.add('tooltip');
+            tooltip.textContent = tooltipText;
+            document.body.appendChild(tooltip);
+
+            // Posiciona el tooltip en el centro del box
+            const rect = box.getBoundingClientRect();
+            tooltip.style.top = rect.top + window.scrollY + (rect.height / 2) - (tooltip.offsetHeight / 2) + 'px';
+            tooltip.style.left = rect.left + window.scrollX + (rect.width / 2) - (tooltip.offsetWidth / 2) + 'px';
+
+            tooltip.classList.add('show');
+
+            // Cierra el tooltip al hacer clic fuera de él
+            document.addEventListener('click', function closeTooltip(event) {
+                if (!tooltip.contains(event.target) && !box.contains(event.target)) {
+                    tooltip.remove();
+                    document.removeEventListener('click', closeTooltip);
+                }
+            });
+        });
+    });
+});
+
+</script>
+   <script src="js/flickity.js" id="flickity-js"></script>
+    
+       <script src="js/lazyload.js" id="lazyload-js"></script>
+        
+       <script src="js/js.js" id="html5blankscripts-js"></script>
+       
+       <script src="js/slick.js" id="slick-js"></script>
+	       
+       <script type="text/javascript" src="js/custom.js" id="custom-js"></script>      
+             
+        <script type="text/javascript" src="js/load.more.js" id="load_more_webstories-js"></script>
+             
+       
+  <!--/**/-->       
+        
+    </body>
+</html>
+=======
+<!doctype html>
+<html lang="es">
+    <head>
+        
+        
+        <meta charset="UTF-8">
+        <script src="https://kit.fontawesome.com/e4e5d6c1ee.js" crossorigin="anonymous"></script>
+        <title>HUTOPIA</title>
+        <link href="imagenes/Logoicon.gif" rel="shortcut icon">
+        <link href="imagenes/Logoicon.gif" rel="apple-touch-icon-precomposed">
+        <meta name="description" content="Una red humana para saltar al abismo de la Inteligencia Artificial"/>
+        <link rel="alternate" type="application/rss+xml" title="Feed de HUTOPIA" href="historias.xml">
+        <link rel="icon" href="imagenes/PORFIN.svg" sizes="32x32"/>
+        <link rel="icon" href="imagenes/PORFIN.svg" sizes="192x192"/>
+        <link rel="apple-touch-icon" href="imagenes/PORFIN.svg"/>
+        <meta name="msapplication-TileImage" content="imagenes/Logoicon.gif"/>
+         <link href="1.css" rel="stylesheet"/>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;1,100&display=swap" rel="stylesheet">
+        <script id="thesu-ready">
+            window.advanced_ads_ready = function(e, a) {
+                a = a || "complete";
+                var d = function(e) {
+                    return "interactive" === a ? "loading" !== e : "complete" === e
+                };
+                d(document.readyState) ? e() : document.addEventListener("readystatechange", (function(a) {
+                    d(a.target.readyState) && e()
+                }
+                ), {
+                    once: "interactive" === a
+                })
+            }
+            ,
+            window.advanced_ads_ready_queue = window.advanced_ads_ready_queue || [];
+        </script>
+
+<link rel="stylesheet" id="google-fonts-1-css" href="https://fonts.googleapis.com/css?family=Merriweather%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMerriweather+Sans%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=auto&#038;ver=6.4.3" media="all"/>
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+      
+<script type="text/javascript" src="js/jquery.js" id="jquery-js"></script>
+        
+        
+<script type="text/javascript" src="https://thesummerhunter.com/wp-content/themes/thesummerhunter/js/lib/conditionizr-4.3.0.min.js?ver=4.3.0" id="conditionizr-js"></script>
+<script type="text/javascript" src="https://thesummerhunter.com/wp-content/themes/thesummerhunter/js/lib/modernizr-2.7.1.min.js?ver=2.7.1" id="modernizr-js"></script>
+
+     
+        
+        <script>
+            // conditionizr.com
+            // configure environment tests
+            conditionizr.config({
+                assets: '',
+                tests: {}
+            });
+        </script>
+<style>
+        @import url("https://fonts.googleapis.com/css2?family=Figtree&display=swap");
+
+
+
+body {
+	display: grid;
+	place-content: center;
+	margin-bottom: auto;
+}
+
+.containertripu {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr)); /* Utiliza minmax para establecer un ancho mínimo */
+    width: 900px;
+    height: 760px;
+    transition: all 400ms;
+    overflow: hidden; /* Para evitar que el contenido desborde cuando se cambia el ancho de las columnas */
+    
+}
+
+.containertripu:hover .box {
+	filter: grayscale(100%) opacity(24%);
+}
+
+.box {
+	position: relative;
+	background: var(--img) center center;
+	background-size: cover;
+	transition: all 400ms;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    font-family: Raleway;
+    font-weight: 600;
+    
+}
+
+.containertripu .box:hover {
+	filter: grayscale(0%) opacity(100%);
+}
+
+.containertripu:has(.box-1:hover) {
+	grid-template-columns: 3fr 1fr 1fr 1fr 1fr;
+    cursor: pointer;
+}
+
+.containertripu:has(.box-2:hover) {
+	grid-template-columns: 1fr 3fr 1fr 1fr 1fr;
+     cursor: pointer;
+}
+
+.containertripu:has(.box-3:hover) {
+	grid-template-columns: 1fr 1fr 3fr 1fr 1fr;
+     cursor: pointer;
+}
+
+.containertripu:has(.box-4:hover) {
+	grid-template-columns: 1fr 1fr 1fr 3fr 1fr;
+     cursor: pointer;
+}
+
+.containertripu:has(.box-5:hover) {
+	grid-template-columns: 1fr 1fr 1fr 1fr 3fr;
+     cursor: pointer;
+}
+
+.box:nth-child(odd) {
+	transform: translateY(-16px);
+}
+
+.box:nth-child(even) {
+	transform: translateY(16px);
+}
+
+.box::after {
+	content: attr(data-text);
+	position: absolute;
+	bottom: 20px;
+	background: #000;
+	color: #fff;
+	padding: 10px 10px 10px 14px;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+	transform: translateY(60px);
+	opacity: 0;
+	transition: all 400ms;
+}
+
+.box:hover::after {
+	transform: translateY(0);
+	opacity: 1;
+	transition-delay: 400ms;
+}
+    /* Nuevos estilos para el texto flotante */
+.tooltip {
+    position: absolute;
+    display: none;
+    background: black;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+    color: white; /* Establece el color del texto en blanco */
+    font-family: Raleway;
+    font-weight: 550;
+}
+
+.tooltip.show {
+    display: block;
+}
+    
+.bodybarca {
+    position: absolute; /* Cambiado */
+    top: 1580px; /* Añadido */
+    left: 50%; /* Añadido */
+    transform: translate(-50%, -50%); /* Añadido */
+    z-index: 0;
+    display: flex; /* Añadido */
+    justify-content: center; /* Añadido */
+    align-items: center; /* Añadido */
+    width: 100%; /* Añadido */
+    height: 100%; /* Añadido */
+}
+  
+
+</style>
+    </head>
+    
+<!--    CUERPO DE LA PÁGINA-->
+    
+    <body>
+        
+        <div class="nav ">
+            <div class="col-12 center header-content">
+                <div class="col"></div>
+                <div class="col">
+                    <a class="header-logo" href="http://hutopia.es/">
+                        <img class="logo" src="imagenes/PORFIN.svg" alt>
+                    </a>
+                </div>
+                <div class="col"></div>
+            </div>
+        </div>
+<!-- ************************* ----->
+         <div class="menu-button"></div>
+        <div class="toggle-menu">
+            <div class="mainmenu">
+                <ul id="menu-toggle-top-menu" class="menu">
+                     <li id="vibes" class="menu-item">
+                        <a href="drops.html">Drops</a>
+                    </li>
+                    <li id="people" class="menu-item">
+                        <a href="wavemakersurfers.html">Wavemakers &amp; Surfers </a>
+                    </li>
+                    <li id="webstories" class="menu-item">
+                        <a href="bubbles.html">Bubbles</a>
+                    </li>
+                    <li id="featured" class="menu-item">
+                        <a href="https://open.spotify.com/user/314sjhqdjznvhvuqu7zbighkv5tm">The Shore</a> </li>
+                    <li id="metaverse" class="menu-item">  <a href="https://www.roblox.com/games/16499004495/"> The Reef</a></li>
+                </ul>
+            </div>
+<div class="col-md-3">
+    <ul class="menu-header social">
+        <li class="social-media">
+            <a href="https://www.instagram.com/hutopia.es?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </li>
+        <li class="social-media">
+            <a href="https://open.spotify.com/user/314sjhqdjznvhvuqu7zbighkv5tm" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-spotify"></i>
+            </a>
+        </li>
+        <li class="social-media">
+            <a href="https://www.linkedin.com/in/hutopia-es-7377952b0/" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-linkedin"></i>
+            </a>
+        </li>
+        <li class="social-media">
+            <a href="https://www.facebook.com/profile.php?id=61557282760796 " target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i></a>
+        </li>
+        <li class="social-media">
+            <a href="https://www.tiktok.com/@hutopia.es?is_from_webapp=1&sender_device=pc" target="_blank" rel="noopener noreferrer"><i class="fab fa-tiktok"></i></a>
+        </li>
+        <li class="social-media">
+            <a href="https://x.com/Hutopia_es?s=20" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-x-twitter"></i></a>
+        </li> 
+    </ul>
+</div>
+        </div>
+
+      
+      
+<!-- ********************************************************  -->
+   <br>
+        <br>
+<div class="paginaindividual" style="margin-top: 190px">
+     <h1><span style="font-family: Raleway; font-size: 60px;letter-spacing:10px ">Tripulación </span></h1>
+        </div>
+       
+ <div class="contenidoprincipal" style="margin-left: 270px; margin-right: 270px; line-height: 40px; text-align: justify"> 
+     <br>
+     <br>
+<div class="containertripu">
+    <div class="box box-1" style="--img: url(Avatar/mafer.png);" data-text="Mafer - Directora">
+    <div class="tooltip" data-text="'Como periodista aspiro a crear un mundo mejor informado y preparado para enfrentarse a nuestro océano dinámico y cambiante.'."></div>
+</div>
+	<div class="box box-2" style="--img: url(Avatar/vero.jpg);" data-text="Veronica-Diseñadora y Fotógrafa">
+    <div class="tooltip" data-text="'La vida es una playa, disfruta de las ola'."></div>
+ </div>
+	<div class="box box-3" style="--img: url(Avatar/joaquin.jpg);" data-text="Joaquín-Redes Sociales">
+    <div class="tooltip" data-text="'Las redes son la mejor manera de pescar tendencias '."></div>
+</div>
+	<div class="box box-4" style="--img: url(Avatar/ainhoa.jpg);" data-text="Ainhoa - Redactora ">
+    <div class="tooltip" data-text="'Todos tenemos una historia que nos define, es nuestra pequeña identidad'"></div>
+</div>
+	
+    <div class="box box-5" style="--img: url(Avatar/valeria.jpg);" data-text="Valeria-Redactora y Contabilidad">
+    <div class="tooltip" data-text="'Explorando y calculando nuevos horizontes'."></div>
+</div>
+</div>
+        <br>
+<div class="containertripu" style="margin-bottom: 150px">
+	<div class="box box-1" style="--img: url(Avatar/julien.png);" data-text="Julien-Redactor">
+    <div class="tooltip" data-text="'La inteligencia artificial es el puente entre el presente y el futuro, construido con los ladrillos del ingenio humano'."></div>
+</div>
+	<div class="box box-2" style="--img: url(Avatar/arantxa.png);" data-text="Arantxa-Redactora">
+    <div class="tooltip" data-text="'El mar en calma nunca hizo un buen navegante'."></div>
+</div>
+	<div class="box box-3" style="--img: url(Avatar/clara.jpg);" data-text="Clara-Diseño Web y Fotógrafa ">
+    <div class="tooltip" data-text="'Si no sabes navegar, no pasa nada, pero no hay que quedarse estancado en la bahía, sino acercarse al arrecife'."></div>
+</div>
+	<div class="box box-4" style="--img: url(Avatar/juanita.png);" data-text="Juanita-Redactora y Fotógrafa">
+    <div class="tooltip" data-text="'Antes de la calma siempre viene la tormenta'."></div>
+</div>
+	
+    <div class="box box-5" style="--img: url(Avatar/gorka2.jpg);" data-text="Gorka - Consultant">
+    <div class="tooltip" data-text="'Todo el mundo tiene algo que demostrar'."></div>
+</div>
+</div>
+ 
+        </div>
+
+    
+        
+       
+          
+<!-- FOOTER | PIE DE PÁGINA -->      
+<section>
+    <div class="row footer align-items-center center">
+    <div class="col-md-3"> <img class="logo" src="imagenes/PORFIN.svg" alt=""></div>
+    
+    <div class="col-md-6"><ul id="menu-footer" class="menu-footer">
+        <li id="menu-item-12930" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-12930"><a href="index.html" aria-current="page">Home</a></li>
+        <li id="menu-item-12932" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-12932">
+            <a href="origen.html">Horizon</a></li>
+         <li id="menu-item-12931" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-12931">
+            <a href="tripulacion.html">The Crew</a></li>
+        <li id="menu-item-12933" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-12933">
+            <a href="newsletter.html">Newsletter</a></li>
+       
+        </ul>
+    </div>
+    
+<div class="col-md-3">
+    <ul class="menu-footer social">
+        <li class="social-media">
+            <a href="https://www.instagram.com/hutopia.es?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </li>
+        <li class="social-media">
+            <a href="" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-spotify"></i>
+            </a>
+        </li>
+        <li class="social-media">
+            <a href="https://www.linkedin.com/in/hutopia-es-7377952b0/" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-linkedin"></i>
+            </a>
+        </li>
+        <li class="social-media">
+            <a href="https://www.facebook.com/profile.php?id=61557282760796 " target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i></a>
+        </li>
+        <li class="social-media">
+            <a href="https://www.tiktok.com/@hutopia.es?is_from_webapp=1&sender_device=pc" target="_blank" rel="noopener noreferrer"><i class="fab fa-tiktok"></i></a>
+        </li>
+        <li class="social-media">
+            <a href="https://x.com/Hutopia_es?s=20" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-x-twitter"></i></a>
+        </li> 
+    </ul>
+    </div>
+        </div>
+         </section>
+<!--    *****ARCHIVOS JAVA*****        -->
+     <script>
+document.addEventListener("DOMContentLoaded", function() {
+    const boxes = document.querySelectorAll('.box');
+
+    boxes.forEach(box => {
+        box.addEventListener('mouseenter', () => {
+            box.style.cursor = "pointer";
+        });
+
+        box.addEventListener('click', () => {
+            const text = box.getAttribute('data-text');
+            const tooltipText = box.querySelector('.tooltip').getAttribute('data-text');
+            const tooltip = document.createElement('div');
+            tooltip.classList.add('tooltip');
+            tooltip.textContent = tooltipText;
+            document.body.appendChild(tooltip);
+
+            // Posiciona el tooltip en el centro del box
+            const rect = box.getBoundingClientRect();
+            tooltip.style.top = rect.top + window.scrollY + (rect.height / 2) - (tooltip.offsetHeight / 2) + 'px';
+            tooltip.style.left = rect.left + window.scrollX + (rect.width / 2) - (tooltip.offsetWidth / 2) + 'px';
+
+            tooltip.classList.add('show');
+
+            // Cierra el tooltip al hacer clic fuera de él
+            document.addEventListener('click', function closeTooltip(event) {
+                if (!tooltip.contains(event.target) && !box.contains(event.target)) {
+                    tooltip.remove();
+                    document.removeEventListener('click', closeTooltip);
+                }
+            });
+        });
+    });
+});
+
+</script>
+   <script src="js/flickity.js" id="flickity-js"></script>
+    
+       <script src="js/lazyload.js" id="lazyload-js"></script>
+        
+       <script src="js/js.js" id="html5blankscripts-js"></script>
+       
+       <script src="js/slick.js" id="slick-js"></script>
+	       
+       <script type="text/javascript" src="js/custom.js" id="custom-js"></script>      
+             
+        <script type="text/javascript" src="js/load.more.js" id="load_more_webstories-js"></script>
+             
+       
+  <!--/**/-->       
+        
+    </body>
+</html>
