@@ -2754,7 +2754,7 @@ div {
 
 
 
-/*__________________________________________________________-___EFECTO PARALLAX_____________________________________________________*/
+/*_____________________________________________________________EFECTO PARALLAX_____________________________________________________*/
 /* Showbox cube section (on right side) */
 .cube__section {
   align-items: center;
@@ -2775,7 +2775,7 @@ div {
   width: 20rem;
   align-content: center;
   align-items: center;
-  object-fit: cover;
+  object-fit: contain;
   
 }
 
@@ -2788,7 +2788,7 @@ div {
   transform: translateZ(-10rem);
   transform-style: preserve-3d;
   width: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 /* This will target every single side of the cubez */
@@ -2801,7 +2801,7 @@ div {
   overflow: hidden;
   position: absolute;
   width: 20rem;
-  object-fit: scale-down;
+  object-fit: contain;
 }
 
 /* This will target an individual side of the cube */
