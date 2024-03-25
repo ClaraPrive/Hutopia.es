@@ -26,7 +26,7 @@
         $('#misha_loadmore_home').hide();
         $('.coverBackground').imagesLoaded(function() {
             $('.coverIntro').addClass('loaded');
-            $('.menu-button').addClass('loaded');
+            $('.fas fa-bars').addClass('loaded');
             $('.search-text').addClass('loaded');
             $('.search-button').addClass('loaded');
             $('.nav').addClass('loaded');
@@ -81,15 +81,15 @@
             window.open(shareUrl, "TweetPopUp", getWindowOptions());
             return false;
         });
-        $('.menu-button').click(function() {
+        $('.fas fa-barsn').click(function() {
             $('.toggle-menu').toggleClass('open');
             $(this).toggleClass('active');
         });
         $(document).click(function(event) {
         var $target = $(event.target);
-        if (!$target.closest('.toggle-menu').length && !$target.closest('.menu-button').length) {
+        if (!$target.closest('.toggle-menu').length && !$target.closest('.fas fa-bars').length) {
             $('.toggle-menu').removeClass('open');
-            $('.menu-button').removeClass('active');
+            $('.fas fa-bars').removeClass('active');
         }
     });
         $('#featured').click(function() {
@@ -135,7 +135,7 @@
         $(".newsletter-btn a").click(function(event) {
             event.preventDefault();
             $('.toggle-menu').toggleClass('open');
-            $('.menu-button').toggleClass('active');
+            $('.fas fa-bars').toggleClass('active');
             $("html, body").animate({
                 scrollTop: $("#newsletter-footer").offset().top - 100
             }, 0);
