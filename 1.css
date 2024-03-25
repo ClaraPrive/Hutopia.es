@@ -2804,9 +2804,7 @@ div {
   transform: rotateX(-90deg) translateZ(10rem);
 }
 .arrecife {
-    background-image: url(Avatar/1bg.png);
-    background-size: cover;
-    background-position: center;
+    
     height: 600px;
 }
 /* Videos ==============================================================*/
@@ -7454,7 +7452,9 @@ table {
     color: inherit;
     text-decoration: none;
 }
-
+.social-media hover {
+    color: 00eaff;
+}
 .social-media i {
     font-size: 20px;  
 }
