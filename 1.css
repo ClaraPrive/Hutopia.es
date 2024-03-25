@@ -128,6 +128,23 @@
     top: 40px
 }
 
+.fas fa-bars {
+     
+     color: black;
+      /*border-radius: 25%;*/
+      width: 55px;
+      height: 35px;
+      cursor: pointer;
+      position: fixed;
+      top: 75px;
+      right: 75px;
+      z-index: 12;
+      transition: all .4s ease-in-out;
+      /* Utiliza flexbox para centrar el ícono verticalmente */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
  .menu-button {
       background: #000;
       /*border-radius: 25%;*/
