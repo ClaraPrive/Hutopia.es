@@ -2762,9 +2762,8 @@ div {
   height: 400px;
   justify-content: center;
   width: 60%;
-  object-fit: contain;
-  top: 10px;
 }
+
 
 /* The cube - where the fun begins :) ===========================*/
 
@@ -2773,10 +2772,6 @@ div {
   height: 20rem;
   perspective: 60rem;
   width: 20rem;
-  align-content: center;
-  align-items: center;
-  
-  
 }
 
 /* The cube's inner container */
@@ -2788,8 +2783,9 @@ div {
   transform: translateZ(-10rem);
   transform-style: preserve-3d;
   width: 100%;
- 
 }
+
+
 
 /* This will target every single side of the cubez */
 .cube__face {
@@ -2799,29 +2795,11 @@ div {
   justify-content: center;
   overflow: hidden;
   position: absolute;
-  width: 20rem; /* Puedes intentar eliminar esto */
-  height: 20rem; /* Puedes intentar eliminar esto */
+  width: 20rem;
+  height: 20rem;
 }
 
-/* This will target an individual side of the cube */
-.cube__face--front {
-  transform: rotateY(0deg) translateZ(10rem);
-}
-.cube__face--back {
-  transform: rotateY(180deg) translateZ(10rem);
-}
-.cube__face--left {
-  transform: rotateY(-90deg) translateZ(10rem);
-}
-.cube__face--right {
-  transform: rotateY(90deg) translateZ(10rem);
-}
-.cube__face--top {
-  transform: rotateX(90deg) translateZ(10rem);
-}
-.cube__face--bottom {
-  transform: rotateX(-90deg) translateZ(10rem);
-}
+
 .arrecifecubo {
     height: 600px;
 }
@@ -2829,12 +2807,9 @@ div {
 
 /* Specifically targeting the <video> element */
 .cubeimg__container {
-  height: 100%;
-  width: auto;
-  overflow: hidden;
+  object-fit: cover;
   width: 100%;
   height: 100%;
-  object-fit: contain;
 }
 
 
