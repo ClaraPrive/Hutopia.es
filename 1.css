@@ -2762,7 +2762,7 @@ div {
   height: 400px;
   justify-content: center;
   width: 60%;
-  object-fit: cover;
+  object-fit: contain;
   top: 10px;
 }
 
