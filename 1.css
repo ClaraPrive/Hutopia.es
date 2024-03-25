@@ -14269,56 +14269,7 @@ table {
     animation: fade-in 1.5s ease-in-out forwards;
 }
 
-.cover .carousel {
-    width: 100%;
-    max-width: 1000px;
-    height: 400px;
-    overflow: hidden;
-    position: relative;
-    margin-top: 170px;
-}
 
-.cover .carousel img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    object-fit: cover; /* Cambiado a cover */
-    opacity: 0; /* Oculta todas las imágenes inicialmente */
-    z-index: 1; /* Define un z-index inicial para todas las imágenes */
-    animation: slideAnimation 40s infinite; /* Ajusta la duración total a 40s */
-}
-
-/* Definir la animación con un contador */
-@keyframes slideAnimation {
-    0% {
-        opacity: 0;
-    }
-    12.5% { /* 5 segundos de 40s totales */
-        opacity: 1;
-    }
-    25% { /* 10 segundos de 40s totales */
-        opacity: 1;
-    }
-    37.5% { /* 15 segundos de 40s totales */
-        opacity: 0;
-    }
-    100% { /* 40 segundos totales */
-        opacity: 0;
-    }
-}
-
-/* Asignar animaciones personalizadas a las imágenes según el tiempo en la animación */
-.cover .carousel .image-1 { animation: slideAnimation 40s 0s infinite; }
-.cover .carousel .image-2 { animation: slideAnimation 40s 5s infinite; }
-.cover .carousel .image-3 { animation: slideAnimation 40s 10s infinite; }
-.cover .carousel .image-4 { animation: slideAnimation 40s 15s infinite; }
-.cover .carousel .image-5 { animation: slideAnimation 40s 20s infinite; }
-.cover .carousel .image-6 { animation: slideAnimation 40s 25s infinite; }
-.cover .carousel .image-7 { animation: slideAnimation 40s 30s infinite; }
-.cover .carousel .image-8 { animation: slideAnimation 40s 35s infinite; }
 
 .cover .coverContent {
     position: absolute;
@@ -14544,4 +14495,10 @@ table {
     max-width: 1140px;
   }
 }
-
+/* CSS para dispositivos móviles */
+@media only screen and (max-width: 600px) {
+    .contenidoprincipal {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
