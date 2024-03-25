@@ -2775,7 +2775,7 @@ div {
   width: 20rem;
   align-content: center;
   align-items: center;
-  object-fit: contain;
+  
   
 }
 
@@ -2788,7 +2788,7 @@ div {
   transform: translateZ(-10rem);
   transform-style: preserve-3d;
   width: 100%;
-  object-fit: contain;
+ 
 }
 
 /* This will target every single side of the cubez */
@@ -2799,9 +2799,9 @@ div {
   justify-content: center;
   overflow: hidden;
   position: absolute;
-  width: 20rem;
-  height: 20rem;
-  background-size: cover; /* Ajustar el tamaño del fondo para que cubra todo el contenedor */
+  width: 20rem; /* Puedes intentar eliminar esto */
+  height: 20rem; /* Puedes intentar eliminar esto */
+  background-size: contain; /* O ajustar con 'contain' si prefieres */
   background-position: center; /* Centrar el fondo */
 }
 
@@ -2834,7 +2834,6 @@ div {
   height: 100%;
   width: auto;
   overflow: hidden;
-  object-fit: contain;
   width: 100%;
   height: 100%;
 }
