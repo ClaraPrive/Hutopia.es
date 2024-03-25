@@ -14248,7 +14248,7 @@ table {
     .cover .coverContent {
         /* Ajustes para contenido de portada en pantallas pequeñas */
         margin-top: 100px;
-        height: auto;
+        height: 50px;
     }
 
     .cover .carousel {
