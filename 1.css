@@ -2801,7 +2801,7 @@ div {
   overflow: hidden;
   position: absolute;
   width: 20rem;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 /* This will target an individual side of the cube */
@@ -2824,7 +2824,6 @@ div {
   transform: rotateX(-90deg) translateZ(10rem);
 }
 .arrecife {
-    
     height: 600px;
 }
 /* Videos ==============================================================*/
