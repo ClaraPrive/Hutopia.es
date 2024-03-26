@@ -14309,7 +14309,6 @@ table {
     align-items: center; /* Centrar verticalmente los elementos */
     margin-top: 0px;
     opacity: 0;
-    animation: fade-in 1.5s ease-in-out forwards;
 }
 
 
@@ -14354,10 +14353,6 @@ table {
     position: absolute;
     overflow: hidden;
     color: #fff
-}
-
-.cover .coverIntro.loaded {
-    animation: fade-slide-up .8s 2s ease-in-out forwards
 }
 
 .cover .coverIntro br {
