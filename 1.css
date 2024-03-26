@@ -14328,7 +14328,7 @@ table {
 .cover .coverContent.white {
     color: #000;
     margin-top:170px;
-    font-family: Raleway, sans-serif;
+    font-family: 'League Spartan', sans-serif;
     font-size: 15px;
     text-align: center;
 }
@@ -14343,21 +14343,6 @@ table {
         
 }
 
-.cover .coverIntro {
-    background: rgba(0,0,0,.8);
-    top: 0;
-    left: 0;
-    z-index: 6;
-    height: 50px;
-    width: 100%;
-    position: absolute;
-    overflow: hidden;
-    color: #fff
-}
-
-.cover .coverIntro br {
-    display: none
-}
 
 .cover .coverIntro .logoIntro {
     margin-top: 80px
