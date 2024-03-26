@@ -275,6 +275,9 @@
 .social-media li a:hover {
     color: #00eaff; /* Cambia el color al hacer hover */
 }
+.social-media a:hover {
+    color: #00eaff; /* Cambia el color al hacer hover */
+}
 .social-list {
     display: flex;
     justify-content: center;
@@ -1442,12 +1445,6 @@ table {
     }
 }
 
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px
-}
 
 .no-gutters {
     margin-right: 0;
@@ -6815,7 +6812,7 @@ table {
     margin-left: -15px;
     margin-bottom: 2px;
     margin-top: 2px;
-    max-height: 500px;
+    max-height: 900px;
 }
 
 .no-gutters {
