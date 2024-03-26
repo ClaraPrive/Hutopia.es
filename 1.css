@@ -271,10 +271,13 @@
     text-decoration: none;
 }
 
-.social-media i {
-    font-size: 20px;  
-}
 
+.social-media li a:hover {
+    color: #00eaff; /* Cambia el color al hacer hover */
+}
+.social-media a:hover {
+    color: #00eaff; /* Cambia el color al hacer hover */
+}
 .social-list {
     display: flex;
     justify-content: center;
