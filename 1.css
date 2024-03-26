@@ -2763,7 +2763,7 @@ div {
 .cube__section {
   align-items: center;
   display: flex;
-  height: 350px;
+  height: 300px;
   justify-content: center;
   width: 60%;
 }
