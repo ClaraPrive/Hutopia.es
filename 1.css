@@ -275,6 +275,10 @@
     font-size: 20px;  
 }
 
+.social-media li a i:hover {
+    color: #00eaff; /* Cambia el color al hacer hover */
+}
+
 .social-list {
     display: flex;
     justify-content: center;
@@ -10514,6 +10518,7 @@ table {
     margin-left: -15px;
     margin-bottom: 2px;
     margin-top: 2px;
+    max-height: 200px;
 }
 
 .no-gutters {
