@@ -270,8 +270,9 @@
     color: inherit;
     text-decoration: none;
 }
-
-
+.social-media li a i:hover {
+    color: #00eaff; /* Cambia el color al hacer hover */
+}
 .social-media li a:hover {
     color: #00eaff; /* Cambia el color al hacer hover */
 }
