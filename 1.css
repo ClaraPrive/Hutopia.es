@@ -7506,7 +7506,18 @@ table {
     justify-content: center;
     align-items: center
 }
+.social-media li {
+            margin-right: 10px; /* Ajusta el espacio entre los elementos si lo deseas */
+        }
 
+        .social-media li a i {
+            color: black; /* Cambia el color de los iconos si lo deseas */
+            transition: color 0.3s; /* Agrega una transición suave al cambio de color */
+        }
+
+        .social-media li a i:hover {
+            color: #00eaff; /* Cambia el color al hacer hover */
+        }
 
 /*-----------------------------------------------------*/
 /*INTRO A LA PAGINA*/
