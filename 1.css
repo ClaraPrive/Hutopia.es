@@ -6812,7 +6812,7 @@ table {
     margin-left: -15px;
     margin-bottom: 0px;
     margin-top: 0px;
-    height: 200px;
+    max-height: height: 200px;
 }
 
 .no-gutters {
