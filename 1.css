@@ -271,11 +271,14 @@
     text-decoration: none;
 }
 
+.social-media i {
+    font-size: 20px;  
+}
 
-.social-media li a:hover {
+.social-media li a i:hover {
     color: #00eaff; /* Cambia el color al hacer hover */
 }
-.social-media a:hover {
+.social-media li a:hover {
     color: #00eaff; /* Cambia el color al hacer hover */
 }
 .social-list {
@@ -1445,6 +1448,12 @@ table {
     }
 }
 
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px
+}
 
 .no-gutters {
     margin-right: 0;
@@ -6810,8 +6819,8 @@ table {
     flex-wrap: wrap;
     margin-right: -15px;
     margin-left: -15px;
-    margin-bottom: 0px;
-    margin-top: 0px;
+    margin-bottom: 2px;
+    margin-top: 2px;
     max-height: 200px;
 }
 
