@@ -2759,7 +2759,7 @@ div {
 .cube__section {
   align-items: center;
   display: flex;
-  height: 430px;
+  height: 400px;
   justify-content: center;
   width: 60%;
 }
@@ -2772,6 +2772,7 @@ div {
   height: 20rem;
   perspective: 60rem;
   width: 20rem;
+  margin-top: 20px;
 }
 
 /* The cube's inner container */
