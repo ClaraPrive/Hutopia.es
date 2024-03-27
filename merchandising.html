@@ -74,6 +74,7 @@ p {
   font-size: 0.6em;
   letter-spacing: 1px;
   font-family: 'Raleway';
+  font-weight: 600;
 }
 
 h1 {
@@ -194,6 +195,37 @@ margin-left: 0px;
     margin-left: 350px;
     margin-right: 350px;
  }
+/* Estilos comunes */
+
+@media only screen and (max-width: 768px) {
+  /* Estilos específicos para dispositivos con ancho máximo de 768px (tabletas y móviles) */
+  body {
+    font-size: 14px; /* Tamaño de fuente más pequeño para pantallas más pequeñas */
+  }
+  
+  img {
+    width: 100%; /* Hacer que las imágenes ocupen todo el ancho del contenedor */
+    margin-top: 20px; /* Reducir el margen superior */
+  }
+  
+  .product {
+    width: 100%; /* Hacer que el contenedor del producto ocupe todo el ancho */
+    position: static; /* Eliminar la posición absoluta */
+    margin: 0 auto; /* Centrar el contenedor del producto */
+    text-align: center; /* Centrar el texto */
+  }
+  
+  .containerproducto {
+    margin-left: 20px; /* Reducir el margen izquierdo */
+    margin-right: 20px; /* Reducir el margen derecho */
+  }
+  
+  #slider-text h3 {
+    font-size: 28px; /* Reducir el tamaño del título */
+    padding-left: 0; /* Eliminar el padding izquierdo */
+    text-align: center; /* Centrar el texto */
+  }
+}
 
         </style>	
 			
