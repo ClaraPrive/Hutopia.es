@@ -44,13 +44,13 @@
             load_delay: 300,
             effect: 'fadeIn'
         });
-        const rootElement = document.querySelector(".cover");
+      /*  const rootElement = document.querySelector(".cover");
         if (rootElement !== null) {
             const viewPortH = rootElement.getBoundingClientRect().height;
             const windowH = window.innerHeight;
             const browserUiBarsH = viewPortH - windowH;
             rootElement.style.height = `calc(100vh - ${browserUiBarsH}px)`;
-        }
+        } */
         $('.places-carousel').flickity({
             wrapAround: false,
             cellAlign: 'left',
