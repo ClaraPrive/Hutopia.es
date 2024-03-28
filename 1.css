@@ -206,7 +206,7 @@
 
 .toggle-menu .mainmenu {
     padding: 30px 0;
-    overflow-y: scroll;
+   /* overflow-y: visible; */
     -webkit-overflow-scrolling: touch;
     flex: 1
 }
