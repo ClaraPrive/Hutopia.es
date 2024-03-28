@@ -520,18 +520,6 @@
     }
 }
 
-/* Añadir colores de fondo en los elementos de historia */
-.vibes.story-item .story-content span {
-    background: rgba(132, 205, 232, .9); /* Color de fondo para el elemento "vibes" */
-}
-
-.people.story-item .story-content span {
-    background: rgba(250, 199, 115, .9); /* Color de fondo para el elemento "people" */
-}
-
-.places.story-item .story-content span {
-    background: rgba(157, 188, 143, .9); /* Color de fondo para el elemento "places" */
-}
 
 /* Estilo de las flechas del carrusel */
 .slick-arrow svg {
@@ -584,7 +572,7 @@
     height: 100%;
 }
 
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .slick-arrow {
         width: 40px;
         height: 40px;
@@ -6375,11 +6363,6 @@ table {
 
     .slick-next {
         right: 15px;
-    }
-  .same-size {
-        height: auto; /* Cambiar la altura automática para adaptarse al contenido */
-        width: 100%; /* Ancho completo en dispositivos móviles */
-        max-width: 100%; /* Asegurar que no exceda el ancho máximo de la pantalla */
     }
 
     .col-6 {
