@@ -853,11 +853,12 @@
 /*NOTICIAS*/
 /*OPCION DOS*/
 .community_component {
-    height: 300px;
+    height: auto;
     grid-column-gap: 1.25rem;
     display: flex;
+    flex-wrap: wrap;
     overflow: hidden;
-    
+       
 }
 
 .community_column-wrapper {
@@ -876,44 +877,37 @@
     height: auto;
 }
 
-.community_mobile { 
-    display: none;
-    margin: 70px;
-
-}
 
 @media screen and (max-width: 479px) {
     .community_component {
-        display: none;
-    }
-
-    .community_mobile {
         width: 100%;
-        height: 255vw;
+        height: 100%;
         display: flex;
-        margin-left: 90px;
-       margin-right: 90px;
+        margin: 70px;
+        flex-direction: column;
+         grid-row-gap: 1.25rem;
         
 }
     
     }
 
-    .community_column-wrapper {
-          width: 100%;
-        flex: 0 auto;
-    
-    }
-}
 
 @media screen and (max-width: 767px) {
     .community_component {
-        height: 45vw;
+        height: 100%;
+         margin: 70px;
+        flex-direction: column;
+         grid-row-gap: 1.25rem;
     }
 }
 
 @media screen and (max-width: 991px) {
     .community_component {
-        height: 48vw;
+        height: 100%;
+        margin: 70px;
+        flex-direction: column;
+        grid-row-gap: 1.25rem;
+        
     }
 }
 
