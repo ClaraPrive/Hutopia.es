@@ -375,9 +375,11 @@
 
 .cover .coverContent.white {
     color: #000;
-    margin-top:170px;
-    font-family: Raleway, sans-serif;
-    font-size: 15px;
+    font-family: 'League Spartan';
+    margin-top: 170px; 
+    letter-spacing: 8px; 
+    margin-bottom: 60px; 
+    font-size: 8px; 
     text-align: center;
 }
 
@@ -432,6 +434,10 @@
     justify-content: center;
     align-items: center
 }
+
+
+
+
 /*-------------------------------------------------------*/
 /*HISTORIAS*/
 /* Estilo del contenedor principal de Google Stories */
