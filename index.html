@@ -54,20 +54,18 @@
             });
         </script>			
 <style>			
-
-
-pproducto {
+p {
   font-size: 0.6em;
   letter-spacing: 1px;
   font-family: 'Bauer Bodoni';
 }
 
-h1producto {
+h4 {
   font-size: 1.2em;
   margin-top: -5px;
 }
 
-h2producto {
+h5 {
   color: #5284a3;
   margin-top: -5px;
 text-align: center;
@@ -80,17 +78,19 @@ text-align: center;
 }
 
 .images img {
-  max-width: 60%; /* Ajusta el tamaño máximo de la imagen al contenedor */
+  max-width: 70%; /* Ajusta el tamaño máximo de la imagen al contenedor */
   height: auto; /* Mantiene la proporción de aspecto de la imagen */
 }
 .images img:hover {
 transform: scale(2.8); /* Aumenta el tamaño al hacer hover */
 }
-.producttienda {
-  /* Elimina la posición relativa y ajusta el tamaño del contenedor */
-  margin-top: 30px;
-  width: 100%;
-}
+.product {
+    /* Agrega un ancho máximo para el contenedor del producto */
+    max-width: 400px; /* Ajusta este valor según tus necesidades */
+    margin: auto; /* Centra el contenedor horizontalmente */
+    padding: 0 20px; /* Agrega un poco de espacio alrededor del contenido */
+    margin-top: 20px;
+        }
 .desc {
   text-transform: none;
   letter-spacing: 0;
@@ -136,9 +136,8 @@ background-color: #b1f5fb;
 
 
 #slider-text{
-padding-top: 20px;
+padding-top: 5px;
 display: block;
-margin-top: 190px;
 margin-left: 0px;
 
 }
@@ -162,7 +161,6 @@ margin-left: 0px;
     padding: 30px;
     flex-wrap: wrap;
 }
-
 
         </style>		
 			
@@ -491,15 +489,15 @@ margin-left: 0px;
    <div class="center">
         <h2>+</h2>
         </div>
-  <div style="display: flex; align-items: center;">
+ <div style="display: flex; align-items: center;">
     <div class="containerproducto">
         <div class="images">
             <img src="merchandising/carcasa1.jpeg" />
         </div>
-        <div class="producttienda">
-            <h1producto>Carcasa The Shore</h1producto>
-            <h2producto>45€</h2producto>
-            <pproducto class="desc">La carcasa de Hutopia que protege tu teléfono hasta de las caídas de las olas más altas.</pproducto>
+        <div class="product">
+            <h4>Carcasa Cove</h4>
+            <h5>45€</h5>
+            <p class="desc">La carcasa de Hutopia que protege tu teléfono hasta de las caídas de las olas más altas.</p>
             <div class="buttons">
                 <button class="add">Add to Cart</button>
                 <button class="like"><span>♥</span></button>
@@ -508,12 +506,12 @@ margin-left: 0px;
     </div>
     <div class="containerproducto" style="margin-left: 10px;">
         <div class="images">
-            <img src="merchandising/pods6.png" />
+            <img src="merchandising/carcasa2.jpeg" />
         </div>
-        <div class="producttienda">
-            <h1producto>Pods Reef</h1producto>
-            <h2producto>125€</h2producto>
-            <pproducto class="desc">Los mejores auriculares para escuchar el sonido del mar y nuestro podcast The Shore en tu cala favorita.</pproducto>
+        <div class="product">
+            <h4>Carcasa Surfer</h4>
+            <h5>45€</h5>
+            <p class="desc">La carcasa de Hutopia que protege tu teléfono hasta de las caídas de las olas más altas.</p>
             <div class="buttons">
                 <button class="add">Add to Cart</button>
                 <button class="like"><span>♥</span></button>
@@ -521,15 +519,15 @@ margin-left: 0px;
         </div>
     </div>
 </div>
-<div style="display: flex; align-items: center;">
-     <div class="containerproducto">
+   <div style="display: flex; align-items: center;">
+    <div class="containerproducto">
         <div class="images">
-            <img src="merchandising/pods2.png" />
+            <img src="merchandising/carcasa3.jpeg" />
         </div>
-        <div class="producttienda">
-            <h1producto>Pods Wave</h1producto>
-            <h2producto>125€</h2producto>
-            <pproducto class="desc">Los mejores auriculares para escuchar el sonido del mar y nuestro podcast The Shore en tu cala favorita.</pproducto>
+        <div class="product">
+            <h4>Carcasa The Shore</h4>
+            <h5>45€</h5>
+            <p class="desc">La carcasa de Hutopia que protege tu teléfono hasta de las caídas de las olas más altas.</p>
             <div class="buttons">
                 <button class="add">Add to Cart</button>
                 <button class="like"><span>♥</span></button>
@@ -540,10 +538,10 @@ margin-left: 0px;
         <div class="images">
             <img src="merchandising/carcasa4.jpeg" />
         </div>
-        <div class="producttienda">
-            <h1producto>Carcasa Drop</h1producto>
-            <h2producto>45€</h2producto>
-            <pproducto class="desc">La carcasa de Hutopia que protege tu teléfono hasta de las caídas de las olas más altas.</pproducto>
+        <div class="product">
+            <h4>Carcasa Drop</h4>
+            <h5>45€</h5>
+            <p class="desc">La carcasa de Hutopia que protege tu teléfono hasta de las caídas de las olas más altas.</p>
             <div class="buttons">
                 <button class="add">Add to Cart</button>
                 <button class="like"><span>♥</span></button>
@@ -551,6 +549,128 @@ margin-left: 0px;
         </div>
     </div>
 </div>
+<div style="display: flex; align-items: center;">
+    <div class="containerproducto">
+        <div class="images">
+            <img src="merchandising/carcasa5.png" />
+        </div>
+        <div class="product">
+            <h4>Carcasa The Shore</h4>
+            <h5>45€</h5>
+            <p class="desc">La carcasa de Hutopia que protege tu teléfono hasta de las caídas de las olas más altas.</p>
+            <div class="buttons">
+                <button class="add">Add to Cart</button>
+                <button class="like"><span>♥</span></button>
+            </div>
+        </div>
+    </div>
+    <div class="containerproducto" style="margin-left: 10px;">
+        <div class="images">
+            <img src="merchandising/carcasa6.png" />
+        </div>
+        <div class="product">
+            <h4>Carcasa Wave</h4>
+            <h5>45€</h5>
+            <p class="desc">La carcasa de Hutopia que protege tu teléfono hasta de las caídas de las olas más altas.</p>
+            <div class="buttons">
+                <button class="add">Add to Cart</button>
+                <button class="like"><span>♥</span></button>
+            </div>
+        </div>
+    </div>
+</div>
+<div style="display: flex; align-items: center;">
+    <div class="containerproducto">
+        <div class="images">
+            <img src="merchandising/pods1.png" />
+        </div>
+        <div class="product">
+            <h4>Pods Cove</h4>
+            <h5>125€</h5>
+            <p class="desc">Los mejores auriculares para escuchar el sonido del mar y nuestro podcast The Shore en tu cala favorita.</p>
+            <div class="buttons">
+                <button class="add">Add to Cart</button>
+                <button class="like"><span>♥</span></button>
+            </div>
+        </div>
+    </div>
+    <div class="containerproducto" style="margin-left: 10px;">
+        <div class="images">
+            <img src="merchandising/pods2.png" />
+        </div>
+        <div class="product">
+            <h4>Pods Wave</h4>
+            <h5>125€</h5>
+            <p class="desc">Los mejores auriculares para escuchar el sonido del mar y nuestro podcast The Shore en tu cala favorita.</p>
+            <div class="buttons">
+                <button class="add">Add to Cart</button>
+                <button class="like"><span>♥</span></button>
+            </div>
+        </div>
+    </div>
+</div>
+  <div style="display: flex; align-items: center;">
+    <div class="containerproducto">
+        <div class="images">
+            <img src="merchandising/pods3.png" />
+        </div>
+        <div class="product">
+            <h4>Pods The Shore</h4>
+            <h5>125€</h5>
+            <p class="desc">Los mejores auriculares para escuchar el sonido del mar y nuestro podcast The Shore en tu cala favorita.</p>
+            <div class="buttons">
+                <button class="add">Add to Cart</button>
+                <button class="like"><span>♥</span></button>
+            </div>
+        </div>
+    </div>
+    <div class="containerproducto" style="margin-left: 10px;">
+        <div class="images">
+            <img src="merchandising/pods4.png" />
+        </div>
+        <div class="product">
+            <h4>Pods Drops</h4>
+            <h5>125€</h5>
+            <p class="desc">Los mejores auriculares para escuchar el sonido del mar y nuestro podcast The Shore en tu cala favorita.</p>
+            <div class="buttons">
+                <button class="add">Add to Cart</button>
+                <button class="like"><span>♥</span></button>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div style="display: flex; align-items: center;">
+    <div class="containerproducto">
+        <div class="images">
+            <img src="merchandising/pods5.png" />
+        </div>
+        <div class="product">
+            <h4>Pods Light</h4>
+            <h5>125€</h5>
+            <p class="desc">Los mejores auriculares para escuchar el sonido del mar y nuestro podcast The Shore en tu cala favorita.</p>
+            <div class="buttons">
+                <button class="add">Add to Cart</button>
+                <button class="like"><span>♥</span></button>
+            </div>
+        </div>
+    </div>
+    <div class="containerproducto" style="margin-left: 10px;">
+        <div class="images">
+            <img src="merchandising/pods6.png" />
+        </div>
+        <div class="product">
+            <h4>Pods Reef</h4>
+            <h5>125€</h5>
+            <p class="desc">Los mejores auriculares para escuchar el sonido del mar y nuestro podcast The Shore en tu cala favorita.</p>
+            <div class="buttons">
+                <button class="add">Add to Cart</button>
+                <button class="like"><span>♥</span></button>
+            </div>
+        </div>
+    </div>
+</div>
+    
 <!-- FOOTER | PIE DE PÁGINA -->          
    <div class="row footer align-items-center center">
     <div class="col-md-3"> <img class="logo" src="imagenes/PORFIN.svg" alt=""></div>
