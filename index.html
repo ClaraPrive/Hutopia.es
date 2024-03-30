@@ -53,8 +53,93 @@
                 tests: {}
             });
         </script>			
-			
-			
+<style>			
+	.imagesproduct {
+  display: flex; /* Utiliza flexbox para centrar la imagen */
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+}
+
+.imagesproduct img {
+  max-width: 70%; /* Ajusta el tamaño máximo de la imagen al contenedor */
+  height: auto; /* Mantiene la proporción de aspecto de la imagen */
+}
+.imagesproduct img:hover {
+transform: scale(2.8); /* Aumenta el tamaño al hacer hover */
+}
+.product {
+  /* Elimina la posición relativa y ajusta el tamaño del contenedor */
+  margin-top: 30px;
+  width: 100%;
+}
+.desc {
+  text-transform: none;
+  letter-spacing: 0;
+  margin-bottom: 17px;
+  color: black;
+  font-size: .7em;
+  line-height: 1.6em;
+  margin-right: 25px;
+  text-align: justify;
+  font-family: Raleway;
+  font-weight: 600;
+    
+}
+
+button {
+  padding: 10px;
+  outline: 0;
+  border: 0;
+  margin: -1px;
+  border-radius: 2px;
+  letter-spacing: 1px;
+  color: black;
+  cursor: pointer;
+  display: inline-block;
+  justify-content: flex-start; /* Alinea los botones a la izquierda */
+  font-family: Raleway;
+  font-weight: 600;
+  margin-top: 10px; /* Ajusta el margen superior de los botones */
+}
+
+  }
+}
+
+.add {
+  width: 67%;
+background-color: #b1f5fb;
+}
+
+.like {
+  width: 22%;
+  background-color: #b1f5fb;
+}
+
+h1product {
+  font-size: 1.2em;
+  margin-top: -5px;
+}
+
+h2product {
+  color: #5284a3;
+  margin-top: -5px;
+text-align: center;
+}
+            
+.containerproducto {
+    display: flex;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 20px;
+    align-items: center;
+    margin-left: 10px; /* Ajusta el margen entre los productos */
+    padding: 30px;
+    flex-wrap: wrap;
+}
+
+
+
+
+        </style>		
 			
     </head>
     
@@ -382,12 +467,12 @@
         </div>
 <div style="display: flex; align-items: center;">
     <div class="containerproducto">
-        <div class="images">
+        <div class="imagesproduct">
             <img src="merchandising/carcasa1.jpeg" />
         </div>
         <div class="product">
-            <h1>Carcasa Cove</h1>
-            <h2>45€</h2>
+            <h1product>Carcasa Cove</h1product>
+            <h2product>45€</h2product>
             <p class="desc">La carcasa de Hutopia que protege tu teléfono hasta de las caídas de las olas más altas.</p>
             <div class="buttons">
                 <button class="add">Add to Cart</button>
@@ -395,12 +480,12 @@
         </div>
     </div>
     <div class="containerproducto" style="margin-left: 10px;">
-        <div class="images">
+        <div class="imagesproduct">
             <img src="merchandising/pods6.png" />
         </div>
         <div class="product">
-            <h1>Pods Reef</h1>
-            <h2>45€</h2>
+            <h1product>Pods Reef</h1product>
+            <h2product>45€</h2product>
             <p class="desc">Los mejores auriculares para escuchar el sonido del mar y nuestro podcast The Shore en tu cala favorita.</p>
             <div class="buttons">
                 <button class="add">Add to Cart</button>
@@ -410,12 +495,12 @@
 </div>
 <div style="display: flex; align-items: center;">
     <div class="containerproducto">
-        <div class="images">
+        <div class="imagesproduct">
             <img src="merchandising/pods1.png" />
         </div>
         <div class="product">
-            <h1>Pods Cove</h1>
-            <h2>45€</h2>
+            <h1product>Pods Cove</h1product>
+            <h2product>45€</h2product>
             <p class="desc">Los mejores auriculares para escuchar el sonido del mar y nuestro podcast The Shore en tu cala favorita.</p>
             <div class="buttons">
                 <button class="add">Add to Cart</button>
@@ -423,12 +508,12 @@
         </div>
     </div>
     <div class="containerproducto">
-        <div class="images">
+        <div class="imagesproduct">
             <img src="merchandising/carcasa4.jpeg" />
         </div>
         <div class="product">
-            <h1>Carcasa Drop</h1>
-            <h2>45€</h2>
+            <h1product>Carcasa Drop</h1product>
+            <h2product>45€</h2product>
             <p class="desc">La carcasa de Hutopia que protege tu teléfono hasta de las caídas de las olas más altas.</p>
             <div class="buttons">
                 <button class="add">Add to Cart</button>
