@@ -2288,7 +2288,7 @@
     width: 50%;
   
 }
-.homepost h2 {
+.h2homepost {
   font-family: 'Raleway';
   overflow-wrap: break-word; /* Dividir palabras largas */
   word-wrap: break-word; /* Soporte para navegadores antiguos */
