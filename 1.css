@@ -2282,6 +2282,7 @@
 }
 .homepost {
     width: 50%;
+    max-width: 50%;
 }
 .homepost h2 {
   font-family: 'Raleway';
