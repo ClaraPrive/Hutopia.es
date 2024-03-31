@@ -2289,7 +2289,7 @@
     margin-bottom: 20px;
   
 }
-.h2 {
+.homepost .h2 {
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
    max-width: 650px;
@@ -2318,7 +2318,7 @@
    .homepost {
     width: 100%;
 }
-    .h2 {
+    .homepost .h2 {
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
    max-width: 970px;
@@ -2339,7 +2339,7 @@
  .homepost {
     width: 100%;
 }
-    .h2 {
+    .homempost .h2 {
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
    max-width: 970px;
@@ -2359,7 +2359,7 @@
     .homepost {
     width: 100%;
 }
-    .h2 {
+    .homepost .h2 {
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
    max-width: 970px;
