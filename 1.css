@@ -2286,10 +2286,12 @@
 }
 .homepost {
     width: 50%;
+    margin-bottom: 20px;
   
 }
 .h2homepost {
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
   overflow-wrap: break-word; /* Dividir palabras largas */
   word-wrap: break-word; /* Soporte para navegadores antiguos */
  
