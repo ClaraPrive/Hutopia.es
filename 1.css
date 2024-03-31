@@ -2283,6 +2283,11 @@
 .homepost {
     width: 50%;
 }
+.homepost h2 {
+  font-family: 'Raleway';
+  overflow-wrap: break-word; /* Dividir palabras largas */
+  word-wrap: break-word; /* Soporte para navegadores antiguos */
+}
 /* Estilo para imágenes de igual tamaño */
 .same-size {
    width: 98%;
