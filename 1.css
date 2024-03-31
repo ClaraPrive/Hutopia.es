@@ -2292,8 +2292,7 @@
 .h2 {
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
-  overflow: visible; /* Dividir palabras largas */
-  word-wrap:break-word; /* Soporte para navegadores antiguos */
+   max-width: 650px;
  
 }
 /* Estilo para imágenes de igual tamaño */
@@ -2319,6 +2318,12 @@
    .homepost {
     width: 100%;
 }
+    .h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+   max-width: 970px;
+ 
+}
 } 
     }
 
@@ -2334,6 +2339,12 @@
  .homepost {
     width: 100%;
 }
+    .h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+   max-width: 970px;
+ 
+}
 }
 @media screen and (max-width: 991px) {
    .containerpost {
@@ -2347,6 +2358,12 @@
 }
     .homepost {
     width: 100%;
+}
+    .h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+   max-width: 970px;
+ 
 }
 }
 
