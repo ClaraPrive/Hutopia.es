@@ -2282,14 +2282,14 @@
 }
 .homepost {
     width: 50%;
-    display: flex;
-    flex-wrap: wrap;
+   
 }
 .homepost h2 {
   font-family: 'Raleway';
   overflow-wrap: break-word; /* Dividir palabras largas */
   word-wrap: break-word; /* Soporte para navegadores antiguos */
-  
+  display: flex;
+    flex-wrap: wrap;
 }
 /* Estilo para imágenes de igual tamaño */
 .same-size {
