@@ -2274,10 +2274,11 @@
 
 .containerpost {
     width: 100vw;
+   
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
-    overflow: visible;
+    overflow: scroll;
     
 }
 . class="figurepost" {
