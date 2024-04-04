@@ -251,12 +251,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 10px;
 }
 .social-media {
     margin-bottom: 20px; /* Espacio entre las filas */
     list-style: none; /* Elimina los puntos de la lista */
     margin-left: 10px;
     margin-right: 10px;
+    padding: 10px;
 }
 
 .social-media a {
@@ -2419,19 +2421,15 @@
 
     ul,
     li {
-        margin-left: 80px;
-        padding: 8px;
+        margin: 0;
+        padding: 10px;
         list-style: none;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
     }
 
     ul.slider {
         position: relative;
         width: 60%;
         height: auto;
-      
         align-items: center;
         text-align: center;
         justify-content: center;
@@ -2455,7 +2453,9 @@
         height: 100%;
         object-fit: cover;
         margin: 0 auto;
-    
+        align-items: center;
+        text-align: center;
+        justify-content: center;
     }
 
     ul.slider li:first-child {
