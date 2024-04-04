@@ -2411,21 +2411,31 @@
         width: 50vw;
         padding: 10px;
         text-align: center; /* Centra horizontalmente */
-        display: block;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
         
     }
 
     ul,
     li {
-        margin: 0;
-        padding: 10px;
+        margin-left: 80px;
+        padding: 8px;
         list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
     }
 
     ul.slider {
         position: relative;
         width: 60%;
         height: auto;
+      
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        
     }
 
     ul.slider li {
@@ -2437,6 +2447,7 @@
         height: inherit;
         background-color: #fff;
         transition: opacity .5s;
+       
     }
 
     ul.slider li img {
@@ -2444,6 +2455,7 @@
         height: 100%;
         object-fit: cover;
         margin: 0 auto;
+    
     }
 
     ul.slider li:first-child {
@@ -2468,11 +2480,11 @@
 
     .mslider li a {
         display: inline-block;
-        color: white;
+        color: #5284a3;
         text-decoration: none;
-        background-color: grey;
+        background-color: #b1f5fb;
         width: 30px;
-        height: 30px;
+        height: 35px;
         font-size: 30px;
     }
  
