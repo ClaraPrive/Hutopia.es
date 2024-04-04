@@ -217,7 +217,7 @@
 }
 
 .toggle-menu ul#menu-toggle-top-menu li {
-    margin-bottom: 10px
+    margin-bottom: 5px
 }
 
 .toggle-menu ul#menu-toggle-top-menu li#home:hover a {
@@ -251,14 +251,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px;
 }
 .social-media {
     margin-bottom: 20px; /* Espacio entre las filas */
     list-style: none; /* Elimina los puntos de la lista */
     margin-left: 10px;
     margin-right: 10px;
-    padding: 10px;
 }
 
 .social-media a {
@@ -279,7 +277,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10x;
 }
 
 
