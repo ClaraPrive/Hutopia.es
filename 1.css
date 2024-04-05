@@ -346,17 +346,17 @@
 }
 
 /* Asignar animaciones personalizadas a las imágenes según el tiempo en la animación */
-.cover .carousel .image-1 { animation: slideAnimation 40s 0s infinite; }
-.cover .carousel .image-2 { animation: slideAnimation 40s 5s infinite; }
-.cover .carousel .image-3 { animation: slideAnimation 40s 10s infinite; }
-.cover .carousel .image-4 { animation: slideAnimation 40s 15s infinite; }
-.cover .carousel .image-5 { animation: slideAnimation 40s 20s infinite; }
-.cover .carousel .image-6 { animation: slideAnimation 40s 25s infinite; }
-.cover .carousel .image-7 { animation: slideAnimation 40s 30s infinite; }
-.cover .carousel .image-8 { animation: slideAnimation 40s 35s infinite; }
-.cover .carousel .image-9 { animation: slideAnimation 40s 35s infinite; } 
-.cover .carousel .image-10 { animation: slideAnimation 40s 35s infinite; }
-.cover .carousel .image-11 { animation: slideAnimation 40s 35s infinite; } 
+.cover .carousel .image-1 { animation: slideAnimation 50s 0s infinite; }
+.cover .carousel .image-2 { animation: slideAnimation 50s 5s infinite; }
+.cover .carousel .image-3 { animation: slideAnimation 50s 10s infinite; }
+.cover .carousel .image-4 { animation: slideAnimation 50s 15s infinite; }
+.cover .carousel .image-5 { animation: slideAnimation 50s 20s infinite; }
+.cover .carousel .image-6 { animation: slideAnimation 50s 25s infinite; }
+.cover .carousel .image-7 { animation: slideAnimation 50s 30s infinite; }
+.cover .carousel .image-8 { animation: slideAnimation 50s 35s infinite; }
+.cover .carousel .image-9 { animation: slideAnimation 50s 40s infinite; } 
+.cover .carousel .image-10 { animation: slideAnimation 50s 45s infinite; }
+.cover .carousel .image-11 { animation: slideAnimation 50s 50s infinite; } 
 
 .cover .coverContent {
     position: absolute;
