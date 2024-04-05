@@ -354,6 +354,9 @@
 .cover .carousel .image-6 { animation: slideAnimation 40s 25s infinite; }
 .cover .carousel .image-7 { animation: slideAnimation 40s 30s infinite; }
 .cover .carousel .image-8 { animation: slideAnimation 40s 35s infinite; }
+.cover .carousel .image-9 { animation: slideAnimation 40s 35s infinite; } 
+.cover .carousel .image-10 { animation: slideAnimation 40s 35s infinite; }
+.cover .carousel .image-11 { animation: slideAnimation 40s 35s infinite; } 
 
 .cover .coverContent {
     position: absolute;
