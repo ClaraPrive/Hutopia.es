@@ -171,8 +171,9 @@
 .toggle-menu {
     position: fixed;
     top: 0;
-    right: -540px;/* Cambiado de left a right */
+    right: -640px;/* Cambiado de left a right */
     z-index: 10;
+    margin-bottom: 0px
     width: 540px;
     height: 100%;
     padding: 100px 75px 50px;
@@ -185,7 +186,7 @@
 }
 
 .toggle-menu.open {
-    transform: translateX(-540px) /* Cambiado de translateX(540px) a translateX(-540px) */
+    transform: translateX(-555px) /* Cambiado de translateX(540px) a translateX(-540px) */
 }
 
 .toggle-menu a {
@@ -251,6 +252,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 85px;
+    margin-bottom: 10px;
 }
 .social-media {
     margin-bottom: 20px; /* Espacio entre las filas */
@@ -356,7 +359,7 @@
 .cover .carousel .image-8 { animation: slideAnimation 50s 35s infinite; }
 .cover .carousel .image-9 { animation: slideAnimation 50s 40s infinite; } 
 .cover .carousel .image-10 { animation: slideAnimation 50s 45s infinite; }
-.cover .carousel .image-11 { animation: slideAnimation 50s 50s infinite; } 
+.cover .carousel .image-11 { animation: slideAnimation 55s 50s infinite; } 
 
 .cover .coverContent {
     position: absolute;
@@ -2421,12 +2424,6 @@
         
     }
 
-    ulm,
-    li {
-        margin: 0;
-        padding: 10px;
-        list-style: none;
-    }
 
     ulm.slider {
         position: relative;
