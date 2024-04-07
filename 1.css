@@ -314,6 +314,7 @@
     overflow: hidden;
     position: relative;
     margin-top: 170px;
+
 }
 
 .cover .carousel img {
@@ -326,7 +327,7 @@
     object-fit: cover; /* Cambiado a cover */
     opacity: 0; /* Oculta todas las imágenes inicialmente */
     z-index: 1; /* Define un z-index inicial para todas las imágenes */
-    animation: slideAnimation 40s infinite; /* Ajusta la duración total a 40s */
+    animation: slideAnimation 65s infinite; /* Ajusta la duración total a 40s */
 }
 
 /* Definir la animación con un contador */
@@ -349,17 +350,22 @@
 }
 
 /* Asignar animaciones personalizadas a las imágenes según el tiempo en la animación */
-.cover .carousel .image-1 { animation: slideAnimation 50s 0s infinite; }
-.cover .carousel .image-2 { animation: slideAnimation 50s 5s infinite; }
-.cover .carousel .image-3 { animation: slideAnimation 50s 10s infinite; }
-.cover .carousel .image-4 { animation: slideAnimation 50s 15s infinite; }
-.cover .carousel .image-5 { animation: slideAnimation 50s 20s infinite; }
-.cover .carousel .image-6 { animation: slideAnimation 50s 25s infinite; }
-.cover .carousel .image-7 { animation: slideAnimation 50s 30s infinite; }
-.cover .carousel .image-8 { animation: slideAnimation 50s 35s infinite; }
-.cover .carousel .image-9 { animation: slideAnimation 50s 40s infinite; } 
-.cover .carousel .image-10 { animation: slideAnimation 50s 45s infinite; }
-.cover .carousel .image-11 { animation: slideAnimation 50s 50s infinite; } 
+.cover .carousel .image-1 { animation: slideAnimation 65s 0s ; }
+.cover .carousel .image-2 { animation: slideAnimation 65s 5s ; }
+.cover .carousel .image-3 { animation: slideAnimation 65s 10s ; }
+.cover .carousel .image-4 { animation: slideAnimation 65s 15s ; }
+.cover .carousel .image-5 { animation: slideAnimation 65s 20s ; }
+.cover .carousel .image-6 { animation: slideAnimation 65s 25s ; }
+.cover .carousel .image-7 { animation: slideAnimation 65s 30s ; }
+.cover .carousel .image-8 { animation: slideAnimation 65s 35s ; }
+.cover .carousel .image-9 { animation: slideAnimation 65s 40s ; } 
+.cover .carousel .image-10 { animation: slideAnimation 65s 45s ; }
+.cover .carousel .image-11 { animation: slideAnimation 65s 50s ; } 
+.cover .carousel .image-12 { animation: slideAnimation 65s 55s ; } 
+.cover .carousel .image-13 { animation: slideAnimation 65s 60s ; } 
+.cover .carousel .image-14 { animation: slideAnimation 65s 65s ; } 
+
+
 
 .cover .coverContent {
     position: absolute;
