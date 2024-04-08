@@ -60,7 +60,177 @@
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
 		
-			
+		<style>
+            p {
+  font-size: 0.6em;
+  letter-spacing: 1px;
+  font-family: 'Raleway', sans-serif;
+}
+
+h4 {
+  font-size: 1.2em;
+  margin-top: -5px;
+text-align: center;
+   font-family: 'Raleway', sans-serif;
+}
+
+h5 {
+  color: #5284a3;
+  margin-top: -5px;
+text-align: center;
+  font-family: Raleway;
+    font-size: 30px;
+}
+
+.images {
+  display: flex; /* Utiliza flexbox para centrar la imagen */
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+}
+
+.images img {
+  max-width: 70%; /* Ajusta el tamaño máximo de la imagen al contenedor */
+  height: auto; /* Mantiene la proporción de aspecto de la imagen */
+}
+.images img:hover {
+transform: scale(1.8); /* Aumenta el tamaño al hacer hover */
+}
+            
+.product {
+    /* Agrega un ancho máximo para el contenedor del producto */
+    max-width: 400px; /* Ajusta este valor según tus necesidades */
+    margin: auto; /* Centra el contenedor horizontalmente */
+    padding: 0 20px; /* Agrega un poco de espacio alrededor del contenido */
+    margin-top: 50px;
+        }
+            
+.desc {
+  text-transform: none;
+  letter-spacing: 0;
+  margin-bottom: 10px;
+  color: black;
+  font-size: 20px;
+  line-height: 1.6em;
+  margin-right: 25px;
+  text-align: left;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+    
+}
+
+button {
+  padding: 10px;
+  outline: 0;
+  border: 0;
+  margin: -1px;
+  border-radius: 2px;
+  letter-spacing: 1px;
+  color: black;
+  cursor: pointer;
+  display: inline-block;
+  justify-content: flex-start; /* Alinea los botones a la izquierda */
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  margin-top: 10px; /* Ajusta el margen superior de los botones */
+}
+
+  }
+}
+
+.add {
+  width: 67%;
+background-color: #b1f5fb;
+}
+
+.like {
+  width: 22%;
+  background-color: #b1f5fb;
+}
+
+
+#slider-text{
+padding-top: 5px;
+display: block;
+margin-left: 0px;
+
+}
+
+#slider-text h3 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  letter-spacing: 3px;
+  padding-left: 150px;
+  color: #5284a3;
+ 
+}
+            
+.containerproducto {
+    display: flex;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 20px;
+    align-items: center;
+    margin-left: 10px; /* Ajusta el margen entre los productos */
+    padding: 30px;
+    flex-wrap: wrap;
+}
+
+.containerslide {
+        margin: 0 auto;
+        background-color: transparent;
+        width: 40vw;
+        height: 320px;
+        text-align: center; /* Centra horizontalmente */
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+
+    ulm.slider {
+        position: relative;
+        width: 60%;
+        height: 100%;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        
+    }
+
+    ulm.slider li {
+        position: absolute;
+        top: 0;
+        opacity: 0;
+       /* width: inherit;
+        height: inherit;
+        background-color: #fff;*/ 
+        transition: opacity .5s;
+       
+    }
+
+    ulm.slider li img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        margin: 0 auto;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    ulm.slider li:first-child {
+        opacity: 1;
+        /* Mostramos el primer <li> */
+    }
+
+    ulm.slider li:target {
+        opacity: 1;
+        /* Mostramos el <li> al que apunta el enlace */
+    }
+
+        </style>	
 			
     </head>
     
