@@ -45,7 +45,12 @@
 <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet" media="all">         
 <script type="text/javascript" src="https://thesummerhunter.com/wp-content/themes/thesummerhunter/js/lib/conditionizr-4.3.0.min.js?ver=4.3.0" id="conditionizr-js"></script>
 <script type="text/javascript" src="https://thesummerhunter.com/wp-content/themes/thesummerhunter/js/lib/modernizr-2.7.1.min.js?ver=2.7.1" id="modernizr-js"></script>
+<!-- Slick Carousel -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 
+<!-- Estilos de Slick Carousel (necesarios para el carrusel) -->
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
         
         <script>
             // conditionizr.com
@@ -784,7 +789,22 @@ margin-left: 0px;
         </div>
         
 <!--    *****ARCHIVOS JAVA*****        -->
-  
+  <script> $(document).ready(function(){
+    // Inicializa Slick Carousel en cada contenedor de carrusel
+    $('.containerslide').each(function(){
+        $(this).find('.slider').slick({
+            autoplay: true,          // Activar autoplay
+            autoplaySpeed: 3000,     // Intervalo de 3 segundos entre imágenes
+            arrows: true,            // Mostrar flechas de navegación
+            prevArrow: '<button type="button" class="slick-prev">Previous</button>',
+            nextArrow: '<button type="button" class="slick-next">Next</button>',
+            dots: true,              // Mostrar puntos de navegación
+            fade: true,              // Efecto de fundido entre imágenes
+            cssEase: 'linear'
+        });
+    });
+});
+</script>
        
         <script type="text/javascript">
             const lazyloadRunObserver = ()=>{
