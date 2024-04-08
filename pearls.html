@@ -53,7 +53,12 @@
                 tests: {}
             });
         </script>			
+<!-- Slick Carousel -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 
+<!-- Estilos de Slick Carousel (necesarios para el carrusel) -->
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
 		
 		<style>
       
@@ -171,7 +176,62 @@ margin-left: 0px;
     flex-wrap: wrap;
 }
 
+.containerslide {
+        margin: 0 auto;
+        background-color: transparent;
+        width: 40vw;
+        height: 320px;
+        text-align: center; /* Centra horizontalmente */
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        
+    }
 
+
+    ulm.slider {
+        position: relative;
+        width: 60%;
+        height: 100%;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        
+    }
+
+    ulm.slider li {
+        position: absolute;
+        top: 0;
+        opacity: 0;
+       /* width: inherit;
+        height: inherit;
+        background-color: #fff;*/ 
+        transition: opacity .5s;
+       
+    }
+
+    ulm.slider li img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        margin: 0 auto;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    ulm.slider li:first-child {
+        opacity: 1;
+        /* Mostramos el primer <li> */
+    }
+
+    ulm.slider li:target {
+        opacity: 1;
+        /* Mostramos el <li> al que apunta el enlace */
+    }
+
+   
         </style>	
 			
     </head>
@@ -259,11 +319,6 @@ margin-left: 0px;
         <li id="slider2"><img src="merchandising/car.1.2.png" alt="slider1"></li>
         <li id="slider3"><img src="merchandising/car.1.3.png" alt="slider1"></li>
     </ulm>
-    <ulm class="mslider">
-        <li><a href="#slider1">1</a></li>
-        <li><a href="#slider2">2</a></li>
-        <li><a href="#slider3">3</a></li>
-    </ulm>
 </div>       
         <div class="product">
             <h4>Carcasa Cove</h4>
@@ -281,11 +336,6 @@ margin-left: 0px;
         <li id="slider4"><img src="merchandising/car2.1.png" alt="slider2"></li>
         <li id="slider5"><img src="merchandising/car2.2.png" alt="slider2"></li>
         <li id="slider6"><img src="merchandising/car2.3.png" alt="slider2"></li>
-    </ulm>
-    <ulm class="mslider">
-        <li><a href="#slider4">1</a></li>
-        <li><a href="#slider5">2</a></li>
-        <li><a href="#slider6">3</a></li>
     </ulm>
 </div>       
         <div class="product">
@@ -307,11 +357,6 @@ margin-left: 0px;
         <li id="slider8"><img src="merchandising/car3.2.png" alt="slider1"></li>
         <li id="slider9"><img src="merchandising/car3.3.png" alt="slider1"></li>
     </ulm>
-    <ulm class="mslider">
-        <li><a href="#slider7">1</a></li>
-        <li><a href="#slider8">2</a></li>
-        <li><a href="#slider9">3</a></li>
-    </ulm>
 </div>       
         <div class="product">
             <h4>Carcasa Cove</h4>
@@ -329,11 +374,6 @@ margin-left: 0px;
         <li id="slider10"><img src="merchandising/car4.1.png" alt="slider2"></li>
         <li id="slider11"><img src="merchandising/car4.2.png" alt="slider2"></li>
         <li id="slider12"><img src="merchandising/car4.3.png" alt="slider2"></li>
-    </ulm>
-    <ulm class="mslider">
-        <li><a href="#slider10">1</a></li>
-        <li><a href="#slider11">2</a></li>
-        <li><a href="#slider12">3</a></li>
     </ulm>
 </div>       
         <div class="product">
@@ -355,11 +395,6 @@ margin-left: 0px;
         <li id="slider14"><img src="merchandising/car5.2.png" alt="slider1"></li>
         <li id="slider15"><img src="merchandising/car5.6.png" alt="slider1"></li>
     </ulm>
-    <ulm class="mslider">
-        <li><a href="#slider13">1</a></li>
-        <li><a href="#slider14">2</a></li>
-        <li><a href="#slider15">3</a></li>
-    </ulm>
 </div>       
         <div class="product">
             <h4>Carcasa Cove</h4>
@@ -377,11 +412,6 @@ margin-left: 0px;
         <li id="slider16"><img src="merchandising/car6.1.png" alt="slider1"></li>
         <li id="slider17"><img src="merchandising/car6.2.png" alt="slider1"></li>
         <li id="slider18"><img src="merchandising/car6.3.png" alt="slider1"></li>
-    </ulm>
-    <ulm class="mslider">
-        <li><a href="#slider16">1</a></li>
-        <li><a href="#slider17">2</a></li>
-        <li><a href="#slider18">3</a></li>
     </ulm>
 </div>       
         <div class="product">
@@ -748,12 +778,22 @@ margin-left: 0px;
         </div>
   
 <!--    *****ARCHIVOS JAVA*****        -->
-<script>$('.center_carousel').slick({
-  centerMode: true,
-  centerPadding: '60px',
-  slidesToShow: 1,
-  variableWidth: true
-});</script>
+<script> $(document).ready(function(){
+    // Inicializa Slick Carousel en cada contenedor de carrusel
+    $('.containerslide').each(function(){
+        $(this).find('.slider').slick({
+            autoplay: true,          // Activar autoplay
+            autoplaySpeed: 3000,     // Intervalo de 3 segundos entre imágenes
+            arrows: true,            // Mostrar flechas de navegación
+            prevArrow: '<button type="button" class="slick-prev">Previous</button>',
+            nextArrow: '<button type="button" class="slick-next">Next</button>',
+            dots: true,              // Mostrar puntos de navegación
+            fade: true,              // Efecto de fundido entre imágenes
+            cssEase: 'linear'
+        });
+    });
+});
+</script>
  
 
  
