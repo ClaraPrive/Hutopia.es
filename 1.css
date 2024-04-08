@@ -1492,7 +1492,6 @@ html {
 body {
     font-family: "Bauer Bodoni Std", serif;
     font-size: 20px;
-    margin: 0 auto;
     overflow-x: hidden; /* Evita el desplazamiento horizontal */
 }
 /*________________ESTILO DE ENLACES_____________*/
