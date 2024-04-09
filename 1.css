@@ -921,21 +921,26 @@
 
 
 /* Estilos para columnas */
-.col-6 {
-    width: 50%; /* Ancho del 50% para cada columna */
-    float: left;  /* Flotar las columnas hacia la izquierda */
-    box-sizing: border-box;   /* Incluir el padding y border en el ancho */
-    padding: 0 15px;/* Espacio interno en las columnas */ 
-}
+ .col-3 {
+    width: 50%; /* Ancho del 50% para cada columna en una fila de dos columnas */
+    float: left; /* Flotar las columnas hacia la izquierda */
+    box-sizing: border-box; /* Incluir el padding y border en el ancho */
+    padding: 0 15px; /* Espacio interno en las columnas */
+        }
 .third-container {
-    margin-top: 0px;
-    padding-bottom: 0;
-    margin-bottom: 0px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Columnas con tamaño mínimo de 300px */
+    grid-gap: 20px; /* Espacio entre columnas */
     height: 300px; /* Ajusta la altura del contenedor al 100% de la ventana */
     position: relative; /* Añadido */
     overflow: hidden; /* Añadido */
+    text-align: center;
 }
-
+.column {
+            background-color: transparent;
+            padding: 10px;
+            box-sizing: border-box;
+        }
 
 
 /*_____________________________________________________________EFECTO PARALLAX_____________________________________________________*/
