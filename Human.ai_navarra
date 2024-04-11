@@ -1,0 +1,342 @@
+
+<!doctype html>
+<html lang="es">
+    <head>
+        
+        
+        <meta charset="UTF-8">
+        <script src="https://kit.fontawesome.com/e4e5d6c1ee.js" crossorigin="anonymous"></script>
+        <title>HUTOPIA</title>
+        <link href="imagenes/PORFIN.svg" rel="shortcut icon">
+        <link href="imagenes/PORFIN.svg" rel="apple-touch-icon-precomposed">
+        <meta name="description" content="Una red humana para saltar al abismo de la Inteligencia Artificial"/>
+        <link rel="alternate" type="application/rss+xml" title="Feed de HUTOPIA" href="historias.xml">
+        <link rel="icon" href="imagenes/PORFIN.svg" sizes="32x32"/>
+        <link rel="icon" href="imagenes/PORFIN.svg" sizes="192x192"/>
+        <link rel="apple-touch-icon" href="imagenes/PORFIN.svg"/>
+        <meta name="msapplication-TileImage" content="imagenes/Logoicon.gif"/>
+          <link href="1.css" rel="stylesheet"/>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;1,100&display=swap" rel="stylesheet">
+        <script id="thesu-ready">
+            window.advanced_ads_ready = function(e, a) {
+                a = a || "complete";
+                var d = function(e) {
+                    return "interactive" === a ? "loading" !== e : "complete" === e
+                };
+                d(document.readyState) ? e() : document.addEventListener("readystatechange", (function(a) {
+                    d(a.target.readyState) && e()
+                }
+                ), {
+                    once: "interactive" === a
+                })
+            }
+            ,
+            window.advanced_ads_ready_queue = window.advanced_ads_ready_queue || [];
+        </script>
+
+<link rel="stylesheet" id="google-fonts-1-css" href="https://fonts.googleapis.com/css?family=Merriweather%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMerriweather+Sans%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=auto&#038;ver=6.4.3" media="all"/>
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+      
+<script type="text/javascript" src="js/jquery.js" id="jquery-js"></script>
+        
+        
+<script type="text/javascript" src="https://thesummerhunter.com/wp-content/themes/thesummerhunter/js/lib/conditionizr-4.3.0.min.js?ver=4.3.0" id="conditionizr-js"></script>
+<script type="text/javascript" src="https://thesummerhunter.com/wp-content/themes/thesummerhunter/js/lib/modernizr-2.7.1.min.js?ver=2.7.1" id="modernizr-js"></script>
+
+     
+        
+        <script>
+            // conditionizr.com
+            // configure environment tests
+            conditionizr.config({
+                assets: '',
+                tests: {}
+            });
+        </script>
+    </head>
+    
+<!--    CUERPO DE LA PÁGINA-->
+    
+    <body>
+        
+        <div class="nav ">
+            <div class="col-12 center header-content">
+                <div class="col"></div>
+                <div class="col">
+                    <a class="header-logo" href="http://hutopia.es/">
+                        <img class="logo" src="imagenes/PORFIN.svg" alt>
+                    </a>
+                </div>
+                <div class="col"></div>
+            </div>
+        </div>
+<!-- ************************* ----->
+        <div class="menu-button"> <i class="fas fa-bars" style="color: whitesmoke;"></i> </div>
+        <div class="toggle-menu">
+            <div class="mainmenu">
+                <ul id="menu-toggle-top-menu" class="menu">
+                     <li id="vibes" class="menu-item">
+                        <a href="drops.html" target="_blank">Drops</a>
+                    </li>
+                    <li id="people" class="menu-item">
+                        <a href="wavemakersurfers.html" target="_blank">Wavemakers &amp; Surfers </a>
+                    </li>
+                    <li id="webstories" class="menu-item">
+                        <a href="bubbles.html" target="_blank">Bubbles</a>
+                    </li>
+                    <li id="featured" class="menu-item">
+                        <a href="https://open.spotify.com/show/5B7fNyyHK2rpHDeorWufm5" target="_blank">The Shore</a> </li>
+                    <li id="metaverse" class="menu-item">  <a href="https://www.roblox.com/games/16499004495/" target="_blank"> The Reef</a></li>
+ <li id="menu-item-12934" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-12933">
+            <a href="merchandising.html" target="_blank">Pearls</a></li>
+
+
+                </ul>
+            </div>
+<div class="col-md-3">
+    <ul class="menu-header social">
+        <li class="social-media">
+            <a href="https://www.instagram.com/hutopia.es?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </li>
+        <li class="social-media">
+            <a href="https://open.spotify.com/show/5B7fNyyHK2rpHDeorWufm5" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-spotify"></i>
+            </a>
+        </li>
+        <li class="social-media">
+            <a href="https://www.linkedin.com/company/hutopia.es/" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-linkedin"></i>
+            </a>
+        </li>
+        <li class="social-media">
+            <a href="https://www.facebook.com/profile.php?id=61557282760796 " target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i></a>
+        </li>
+        <li class="social-media">
+            <a href="https://www.tiktok.com/@hutopia.es?is_from_webapp=1&sender_device=pc" target="_blank" rel="noopener noreferrer"><i class="fab fa-tiktok"></i></a>
+        </li>
+        <li class="social-media">
+            <a href="https://x.com/Hutopia_es?s=20" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-x-twitter"></i></a>
+        </li> 
+    </ul>
+</div>
+        </div>
+
+      
+<!-- ************************************************************************************************************************************************-->
+            
+<!--<! ---_____________________________ LARGO REPORTAJE _________________________ --->
+            
+<h1 class="col-12 justify-content-center align-items-center" style="margin-top: 230px; font-family: 'Raleway'; line-height: 50px">
+    <span style="font-size: 50px; font-weight: 600">El sistema que adivina cómo eres en ocho segundos</span>
+</h1>
+        
+    <div class="contenidoprincipal">   
+            
+    <p style="font-family: Raleway; font-weight: 600; color: #5284a3; text-align: center">La empresa navarra Human AI comenzó como un proyecto de investigación, promovido por María Beúnza y Roberto Aguirre en colegios. Su ‘software’ analiza a las personas a partir de textos escritos por ellas mismas</p> 
+        <br>
+        <div style="display: flex; align-items: center;">
+    <div class="align-items-left" style="margin-right: 10px;">
+        <figure style="margin: 0;">
+            <img src="Avatar/redacmafer.jpg" style="width: 70px; height: 100px; margin: 0;">
+        </figure>
+    </div>
+    <div class="align-items-right" style="margin-left: 10px;">
+        <p style="font-family: Raleway, sans-serif; margin: 0; text-align: left;"><strong>María Fernanda Brea</strong></p>
+        <place style="font-family: Raleway, sans-serif; margin: 0;">Pamplona | </place>
+        <publishedDate style="font-family: Raleway, sans-serif; margin: 0;">11 de abril de 2024</publishedDate>
+    </div>
+    <!-- Red social -->
+    <ul style="list-style: none; display: flex; margin-left: auto; padding: 0;">
+        <li class="social-media">
+            <a href="https://www.facebook.com/profile.php?id=61557282760796" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-facebook"></i>
+            </a>
+        </li>
+        <li class="social-media">
+            <a href="https://www.linkedin.com/company/hutopia.es/" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-linkedin"></i>
+            </a>
+        </li>
+        <li class="social-media">
+            <a href="https://www.instagram.com/hutopia.es?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </li>
+        <li class="social-media">
+            <a href="https://x.com/Hutopia_es?s=20" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-twitter"></i>
+            </a>
+        </li>
+        <li class="social-media">
+            <a href="https://www.tiktok.com/@hutopia.es?is_from_webapp=1&sender_device=pc" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-tiktok"></i>
+            </a>
+        </li>
+    </ul>
+</div>
+    <hr style="margin-bottom: 60px">   
+
+        
+      <figure style="display: flex; flex-direction: column; align-items: center;"> 
+  <img src="reportajes/humanai.jpg"  style="display: block; width: 900px;">
+        <figcaption style="font-size: 15px; line-height: 35px">Imagen de Pexels. <i>(Foto: Autor)</i></figcaption>
+</figure>
+
+<p style="margin-top: 45px"> <span class="capitular">H </span>ay quienes afirman que los ojos son la ventana del alma. Pero quizás no estén al corriente de todo lo que los softwares de <strong>Inteligencia Artificial (IA)</strong> pueden llegar a conocer de una persona a partir de un simple texto. Human AI, una startup de origen navarro, ha desarrollado una herramienta que permite determinar cómo es un individuo tras analizar un escrito de 800 palabras, realizado por él mismo. Y lo hace en tan solo <strong>ocho segundos.</strong> “Se trata de un sistema que, a través de un conjunto de oraciones, elabora una valoración de la personalidad y las competencias socioemocionales, que ayuda al autoconocimiento y a la selección de personal de las empresas y profesionales”, explica María Beúnza, CEO de Human AI. 
+ </p>
+
+<p>Las personas son la pieza clave que engrasa el buen funcionamiento de cualquier organización. Por eso, son importantes aquellos procedimientos que sirven para evaluar sus fortalezas y debilidades. Según Beúnza, la implementación de herramientas de IA, como la que ha creado su firma, obtiene resultados más objetivos y precisos, ya que eliminan el <strong>“sesgo de autopercepción”.</strong> “¿Tú dirías en una entrevista de trabajo que no sabes trabajar en equipo? No y probablemente no percibas esto como falso. Sin embargo, en un texto, aunque escribas 500 veces que eres muy simpático y creas lo mismo, el análisis que haga el software puede revelar lo contrario”, argumenta.  </p>
+        
+<p> <span class="ladillo"> Así opera el sistema</span></p>
+<p>Aunque lo parezca, no se trata de magia. El sistema que ha creado Human AI lleva a cabo una serie de pasos que combinan la <strong>psicolingüística</strong> y la IA para medir los soft skills de la persona evaluada. Primero, el procesamiento de lenguaje natural convierte el texto realizado en números y, después, los datos son analizados desde cientos de <strong>parámetros semánticos.</strong> Una vez se tienen los resultados, se utiliza el modelo científico sobre personalidad por competencias desarrollado por la <strong>OCDE (Organización para la Cooperación y el Desarrollo Económicos)</strong> para determinar cómo es un individuo. Ahora bien, la tecnología generada por la <i>startup</i> no analiza elementos cognitivos como el coeficiente intelectual.  </p>
+        
+<div class="contenedorsumario">
+        <div class="linea"></div>
+        <div class="sumario">
+            <p style="font-size: 25px; margin-left: 30px; margin-right: 30px">María Beúnza: “Esta herramienta puede aplicarse a cualquier sector, ya que evalúa aspectos transversales como la empatía, la tolerancia al estrés, la orientación al logro y las ganas de aprender”</p>
+        </div>
+    </div> 
+        
+<p>Actualmente, Human AI trabaja a nivel nacional e internacional con pequeñas y medianas empresas, universidades, colegios y algunas entidades deportivas, como la <strong>Federación Navarra de Tenis.</strong> Beúnza valora que el software puede implementarse en cualquier organización: “Esta herramienta puede aplicarse a cualquier sector empresarial, ya que evalúa <strong>aspectos transversales</strong> como la empatía, la tolerancia al estrés, la orientación al logro y las ganas de aprender, que son necesarios en todos los campos laborales”. 
+ </p>
+        
+<p>Dirigiendo la mirada a las pymes de España, resalta que la aplicación de este tipo de herramientas tecnológicas aporta precisión, ahorra tiempo y recursos y genera “mejor información” para la toma de decisiones. Además, añade que conocer de antemano las fortalezas y debilidades de las personas con las que trabajas puede evitar a las organizaciones pérdidas innecesarias y que no se pueden permitir, especialmente si apenas están comenzando a funcionar.  </p>
+  
+<p>“Te contratan por aptitud, con ‘p’, pero te despiden por actitud, con ‘c’”, sostiene. Por otra parte, aclara que Human AI es una solución tecnológica “complementaria” para las empresas, por lo que no sugiere que las organizaciones dejen de realizar entrevistas de trabajo o cualquier otro proceso relacionado con la evaluación de los trabajadores de una empresa. “Nuestra misión es ayudar al que ayuda. Añadiendo el reporte extra realizado con nuestro <i>software</i> a sus propios informes, las empresas pueden tener a su disposición más información para la toma de decisiones”, comenta. </p>
+
+<p> <span class="ladillo">“La IA al servicio del desarrollo humano”</span></p>
+<p>Una de las razones que motivaron a María Beúnza y Roberto Aguirre (CTO de la firma) para crear Human AI fue el hecho de que “la mayoría de la gente no sabe utilizar las tecnologías a su favor”. A ella siempre le habían interesado la tecnología, la innovación y la educación, pero ha sido ahora cuando ha logrado combinar sus tres pasiones. “Si bien la IA puede hacer la vida de las personas más fácil, aún hay algunos que siguen teniendo miedo a esta nueva herramienta. Por eso, nuestra empresa quiere ponerla al servicio del desarrollo humano”, apostilla.</p>
+
+<p>Human AI empezó como un proyecto de investigación, que buscaba valorar competencias socioemocionales para asistir a los profesionales, inicialmente de colegios. Y fue en 2021 cuando se constituyó como empresa. En sus inicios, Beúnza y <strong>Aguirre</strong> desarrollaban páginas web, aplicaciones y prototipos. Sin embargo, ya generan </strong>algoritmos propios.</strong> Hoy ya son diez las personas que trabajan en la firma, que opera directamente con las organizaciones que utilizan su tecnología, no con las personas evaluadas por ella. </p>
+  
+<br>
+<br>
+        <hr style="width: 350px; border-color: #b4e7f8">  
+        <div class="align-items-center">
+        <a href="wavemakersurfers.html" target="_blank" > <span style="font-family: Raleway"><strong>+</strong></span></a>
+        </div>
+        </div>  
+    
+<!-- FOOTER | PIE DE PÁGINA -->
+    
+   <section>
+    <div class="row footer align-items-center center">
+    <div class="col-md-3"> <img class="logo" src="imagenes/PORFIN.svg" alt=""></div>
+    
+    <div class="col-md-6"><ul id="menu-footer" class="menu-footer">
+        <li id="menu-item-12930" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-12930"><a href="https://hutopia.es/" aria-current="page">Home</a></li>
+        <li id="menu-item-12932" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-12932">
+            <a href="origen.html" target="_blank">Horizon</a></li>
+         <li id="menu-item-12931" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-12931">
+            <a href="tripulacion.html" target="_blank">The Crew</a></li>
+        <li id="menu-item-12933" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-12933">
+            <a href="newsletter.html" target="_blank">Newsletter</a></li>
+       <li id="menu-item-12934" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-12933">
+            <a href="merchandising.html" target="_blank">Pearls</a></li>
+
+        </ul>
+    </div>
+    
+<div class="col-md-3">
+    <ul class="menu-footer social">
+        <li class="social-media">
+            <a href="https://www.instagram.com/hutopia.es?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </li>
+        <li class="social-media">
+            <a href="https://open.spotify.com/show/5B7fNyyHK2rpHDeorWufm5" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-spotify"></i>
+            </a>
+        </li>
+        <li class="social-media">
+            <a href="https://www.linkedin.com/company/hutopia.es/" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-linkedin"></i>
+            </a>
+        </li>
+        <li class="social-media">
+            <a href="https://www.facebook.com/profile.php?id=61557282760796 " target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i></a>
+        </li>
+        <li class="social-media">
+            <a href="https://www.tiktok.com/@hutopia.es?is_from_webapp=1&sender_device=pc" target="_blank" rel="noopener noreferrer"><i class="fab fa-tiktok"></i></a>
+        </li>
+        <li class="social-media">
+            <a href="https://x.com/Hutopia_es?s=20" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-x-twitter"></i></a>
+        </li> 
+    </ul>
+    </div>
+        </div>
+         </section>
+        
+<!--    *****ARCHIVOS JAVA*****        -->
+        <script>
+            jQuery('.epu-close, .epu-mask, .epu-rejection, .epu-question').click(function() {
+                jQuery('.epu, .epu-mask').remove();
+                Cookies.set('epu-abandono-pagina', 'dismissed', {
+                    expires: 1
+                });
+            });
+
+            jQuery(document).mouseleave(function() {
+                jQuery('.epu, .epu-mask').css('display', 'block');
+            });
+        </script>
+        <script type="text/javascript">
+            const lazyloadRunObserver = ()=>{
+                const dataAttribute = 'data-e-bg-lazyload';
+                const lazyloadBackgrounds = document.querySelectorAll(`[${dataAttribute}]:not(.lazyloaded)`);
+                const lazyloadBackgroundObserver = new IntersectionObserver((entries)=>{
+                    entries.forEach((entry)=>{
+                        if (entry.isIntersecting) {
+                            let lazyloadBackground = entry.target;
+                            const lazyloadSelector = lazyloadBackground.getAttribute(dataAttribute);
+                            if (lazyloadSelector) {
+                                lazyloadBackground = entry.target.querySelector(lazyloadSelector);
+                            }
+                            if (lazyloadBackground) {
+                                lazyloadBackground.classList.add('lazyloaded');
+                            }
+                            lazyloadBackgroundObserver.unobserve(entry.target);
+                        }
+                    }
+                    );
+                }
+                ,{
+                    rootMargin: '100px 0px 100px 0px'
+                });
+                lazyloadBackgrounds.forEach((lazyloadBackground)=>{
+                    lazyloadBackgroundObserver.observe(lazyloadBackground);
+                }
+                );
+            }
+            ;
+            const events = ['DOMContentLoaded', 'elementor/lazyload/observe', ];
+            events.forEach((event)=>{
+                document.addEventListener(event, lazyloadRunObserver);
+            }
+            );
+        </script>
+  <!--/**/-->
+        <script type="text/javascript" src="js/flickity.js" id="flickity-js"></script>
+    
+       <script type="text/javascript" src="js/lazyload.js" id="lazyload-js"></script>
+        
+       <script type="text/javascript" src="js/js.js" id="html5blankscripts-js"></script>
+       
+       <script type="text/javascript" src="js/slick.js" id="slick-js"></script>
+        
+       <script type="text/javascript" src="js/custom.js" id="custom-js"></script> 
+        
+             
+        <script type="text/javascript" src="js/load.more.js" id="load_more_webstories-js"></script>
+        
+  <!--/**/-->       
+           
+    </body>
+</html>
+
+
