@@ -1391,6 +1391,33 @@
     max-width: 700px;
     margin: 0 auto;
 }
+
+   /* Estilos para el contenedor del reproductor de audio */
+    .audio-container {
+        margin-top: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    /* Estilos para el reproductor de audio */
+    audio {
+      margin-top: 10px;
+      width: 25%; /* Ancho del reproductor */
+      background-color: transparent; /* Fondo transparente */
+      color: black; /* Color del texto */
+      border-radius: none; /* Eliminar cualquier redondeo */
+    }
+
+    /* Estilos para los controles personalizados de audio */
+    audio::-webkit-media-controls-panel {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: transparent; /* Fondo transparente para controles */
+      padding: 10px; /* Espacio alrededor de los controles */
+      border-radius: none; /* Eliminar cualquier redondeo */
+    }
 /*___________________________________________________________________*/
 /*__________________________________________________________MERCHANDISING__________________________________________________________*/
 
