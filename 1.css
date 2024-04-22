@@ -913,34 +913,40 @@
 
 /*-----------------------------------------------------*/
 /*ORILLA*/
+/* Styles for shore-content */
 .shore-content {
-    height: auto;
-    margin-bottom: 10px
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    padding: 20px; /* Optional: Add padding for spacing */
 }
-/* Estilos del segundo contenedor */
 
-
-/* Estilos para columnas */
- .col-3 {
-    width: 50%; /* Ancho del 50% para cada columna en una fila de dos columnas */
-    float: left; /* Flotar las columnas hacia la izquierda */
-    box-sizing: border-box; /* Incluir el padding y border en el ancho */
-    padding: 0 15px; /* Espacio interno en las columnas */
-        }
+/* Styles for third-container */
 .third-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Columnas con tamaño mínimo de 300px */
-    grid-gap: 20px; /* Espacio entre columnas */
-    height: 300px; /* Ajusta la altura del contenedor al 100% de la ventana */
-    position: relative; /* Añadido */
-    overflow: hidden; /* Añadido */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Distribute columns evenly */
+    column-gap: 20px; /* Space between columns */
+    width: 100%; /* Full width */
+    max-width: 1200px; /* Optional: Limit maximum width */
+    margin-top: 20px; /* Optional: Add top margin for spacing */
+}
+
+/* Styles for column */
+.column {
+    flex: 1 0 30%; /* Each column takes up 30% of the container width */
+    max-width: 300px; /* Optional: Limit maximum width of each column */
+    padding: 20px; /* Optional: Add padding for content spacing */
     text-align: center;
 }
-.column {
-            background-color: transparent;
-            padding: 10px;
-            box-sizing: border-box;
-        }
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .column {
+        flex-basis: 100%; /* Each column takes full width on smaller screens */
+        max-width: 100%; /* Allow columns to occupy full width */
+    }
+}
 
 
 /*_____________________________________________________________EFECTO PARALLAX_____________________________________________________*/
